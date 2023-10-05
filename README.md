@@ -271,6 +271,104 @@ Hai un elenco di numeri nella colonna A, B e C. Vuoi assegnare "Tutti pari" solo
 Puoi utilizzare queste formule nelle tue celle Excel per eseguire le verifiche logiche descritte negli esercizi. Assicurati di adattare le formule in base alla disposizione specifica dei dati nel tuo foglio di calcolo.
 
 
+_____________________________________________________________________
+
+
+
+## Esercizi con OR EXEL 
+
+
+### Esercizio 1:
+Hai un elenco di voti nella colonna A. Vuoi assegnare "Approvato" se il voto è maggiore o uguale a 50 o se il punteggio di partecipazione nella colonna B è maggiore di 80.
+
+**Formula:**
+```excel
+=IF(OR(A1>=50, B1>80), "Approvato", "Non approvato")
+```
+
+### Esercizio 2:
+Hai un elenco di numeri nella colonna A. Vuoi determinare se ciascun numero è multiplo di 3 o di 5.
+
+**Formula:**
+```excel
+=IF(OR(MOD(A1,3)=0, MOD(A1,5)=0), "Multiplo di 3 o 5", "Non multiplo di 3 o 5")
+```
+
+### Esercizio 3:
+Hai un elenco di nomi nella colonna A. Vuoi verificare se ciascun nome è "Alice" o "Bob".
+
+**Formula:**
+```excel
+=IF(OR(A1="Alice", A1="Bob"), "Nome valido", "Nome non valido")
+```
+
+### Esercizio 4:
+Hai un elenco di età nella colonna A. Vuoi determinare se ciascuna persona è un bambino (età inferiore a 13 anni) o un anziano (età uguale o superiore a 65 anni).
+
+**Formula:**
+```excel
+=IF(OR(A1<13, A1>=65), "Bambino o Anziano", "Non Bambino o Anziano")
+```
+
+### Esercizio 5:
+Hai un elenco di colori nella colonna A. Vuoi verificare se ciascun colore è rosso, verde o blu.
+
+**Formula:**
+```excel
+=IF(OR(A1="Rosso", A1="Verde", A1="Blu"), "Colore valido", "Colore non valido")
+```
+
+### Esercizio 6:
+Hai un elenco di temperature nella colonna A. Vuoi determinare se ciascuna temperatura è inferiore a 0 gradi Celsius o superiore a 30 gradi Celsius.
+
+**Formula:**
+```excel
+=IF(OR(A1<0, A1>30), "Estremo", "Nella norma")
+```
+
+### Esercizio 7:
+Hai un elenco di numeri nella colonna A. Vuoi verificare se ciascun numero è negativo o superiore a 100.
+
+**Formula:**
+```excel
+=IF(OR(A1<0, A1>100), "Negativo o Maggiore di 100", "Positivo e Minore o Uguale a 100")
+```
+
+### Esercizio 8:
+Hai un elenco di date nella colonna A. Vuoi determinare se ciascuna data è di un giorno festivo (ad esempio, Natale o Capodanno).
+
+**Formula:**
+```excel
+=IF(OR(MONTH(A1)=12, DAY(A1)=1, MONTH(A1)=1, DAY(A1)=1), "Giorno festivo", "Non giorno festivo")
+```
+
+### Esercizio 9:
+Hai un elenco di numeri nella colonna A. Vuoi verificare se ciascun numero è un quadrato perfetto o un cubo perfetto.
+
+**Formula:**
+```excel
+=IF(OR(SQRT(A1)=INT(SQRT(A1)), A1^(1/3)=INT(A1^(1/3))), "Quadrato o Cubo perfetto", "Non Quadrato o Cubo perfetto")
+```
+
+### Esercizio 10:
+Hai un elenco di temperature nella colonna A. Vuoi determinare se ciascuna temperatura è inferiore a 0 gradi Celsius o superiore a 25 gradi Celsius.
+
+**Formula:**
+```excel
+=IF(OR(A1<0, A1>25), "Estremo", "Nella norma")
+```
+
+Questi esercizi ti permetteranno di praticare l'utilizzo della funzione OR in diverse situazioni. Puoi adattare le formule in base alle tue esigenze specifiche e sperimentare con altre condizioni logiche per ampliare le tue competenze in Excel.
+
+
+
+
+
+
+
+
+
+
 
 
 
