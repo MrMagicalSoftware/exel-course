@@ -360,6 +360,101 @@ Hai un elenco di temperature nella colonna A. Vuoi determinare se ciascuna tempe
 
 Questi esercizi ti permetteranno di praticare l'utilizzo della funzione OR in diverse situazioni. Puoi adattare le formule in base alle tue esigenze specifiche e sperimentare con altre condizioni logiche per ampliare le tue competenze in Excel.
 
+_____________________________________________________________
+
+
+## FUNZIONE NOT IN EXEL  ESERCITAZIONE 
+
+
+### Esercizio 1:
+Hai un elenco di voti nella colonna A. Vuoi assegnare "Promosso" se il voto è superiore a 50, altrimenti "Non promosso".
+
+**Formula:**
+```excel
+=IF(NOT(A1>50), "Non promosso", "Promosso")
+```
+
+### Esercizio 2:
+Hai un elenco di età nella colonna A. Vuoi determinare se ciascuna persona non è un bambino (età maggiore o uguale a 13 anni).
+
+**Formula:**
+```excel
+=IF(NOT(A1<13), "Non bambino", "Bambino")
+```
+
+### Esercizio 3:
+Hai un elenco di valori nella colonna A. Vuoi verificare se ciascun valore è diverso da zero.
+
+**Formula:**
+```excel
+=IF(NOT(A1=0), "Diverso da zero", "Zero")
+```
+
+### Esercizio 4:
+Hai un elenco di stringhe di testo nella colonna A. Vuoi verificare se ciascuna stringa non è vuota.
+
+**Formula:**
+```excel
+=IF(NOT(A1=""), "Non vuota", "Vuota")
+```
+
+### Esercizio 5:
+Hai un elenco di numeri nella colonna A. Vuoi verificare se ciascun numero è negativo.
+
+**Formula:**
+```excel
+=IF(NOT(A1<0), "Non negativo", "Negativo")
+```
+
+### Esercizio 6:
+Hai un elenco di booleani (VERO o FALSO) nella colonna A. Vuoi ottenere il valore opposto (es. da VERO a FALSO e viceversa).
+
+**Formula:**
+```excel
+=NOT(A1)
+```
+
+### Esercizio 7:
+Hai un elenco di valori nella colonna A. Vuoi verificare se ciascun valore è un numero intero.
+
+**Formula:**
+```excel
+=IF(NOT(ISNUMBER(A1)), "Non è un numero", "È un numero")
+```
+
+### Esercizio 8:
+Hai un elenco di date nella colonna A. Vuoi verificare se ciascuna data è superiore alla data odierna.
+
+**Formula:**
+```excel
+=IF(NOT(A1>TODAY()), "Data passata", "Data futura o odierna")
+```
+
+### Esercizio 9:
+Hai un elenco di valori nella colonna A. Vuoi verificare se ciascun valore è un numero intero positivo.
+
+**Formula:**
+```excel
+=IF(NOT(INT(A1)=A1, A1>0), "Non è un numero intero positivo", "È un numero intero positivo")
+```
+
+### Esercizio 10:
+Hai un elenco di stringhe di testo nella colonna A. Vuoi verificare se ciascuna stringa contiene la parola "Excel".
+
+**Formula:**
+```excel
+=IF(NOT(ISNUMBER(FIND("Excel", A1))), "Non contiene Excel", "Contiene Excel")
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
