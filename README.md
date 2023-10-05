@@ -1321,7 +1321,35 @@ Ricorda che puoi anche ordinare i dati in base a più colonne. Per farlo, nella 
 ##  -- 8 Inserimento di grafici
 
 
+la procedura specifica può variare leggermente a seconda della versione di Excel che stai utilizzando, ma i concetti di base rimangono gli stessi. Esplora le opzioni del menu e sperimenta con i tuoi dati per ottenere il risultato desiderato nel tuo grafico.
 
+
+Creare un grafico in Excel è un processo relativamente semplice e può essere fatto seguendo questi passaggi di base. Ecco come inserire un grafico in Excel:
+
+
+### 1. **Seleziona i Dati:**
+- Prima di tutto, seleziona i dati che desideri includere nel grafico. Questi dati possono essere organizzati in colonne o righe.
+
+### 2. **Vai su "Inserisci":**
+- Clicca sulla scheda "Inserisci" nella barra del menu di Excel.
+
+### 3. **Seleziona il Tipo di Grafico:**
+- Nella sezione "Grafici" troverai diverse opzioni di grafico come "Istogramma", "Scatter Plot", "Linea", "Torta", ecc. Scegli il tipo di grafico che meglio rappresenta i tuoi dati. Puoi anche scegliere "Altro Grafico..." per ulteriori opzioni.
+
+### 4. **Inserisci il Grafico:**
+- Dopo aver selezionato il tipo di grafico, clicca sulla sua icona. Excel inserirà un grafico vuoto nel foglio di lavoro e aprirà un'area dati accanto al grafico.
+
+### 5. **Collega i Dati al Grafico:**
+- Nell'area dati, dovrai specificare quali dati desideri utilizzare per ciascun asse del grafico. Puoi trascinare direttamente le celle selezionate nell'area dati o inserire manualmente il riferimento alle celle.
+
+### 6. **Personalizza il Grafico (Opzionale):**
+- Una volta inserito il grafico, puoi personalizzarlo ulteriormente. Cliccando sul grafico verrà visualizzata una barra degli strumenti "Strumenti Grafico" che ti consente di modificare colori, stili, titoli e molto altro.
+
+### 7. **Posiziona e Ridimensiona il Grafico (Opzionale):**
+- Puoi trascinare il grafico per posizionarlo in una posizione specifica nel foglio di lavoro. Inoltre, puoi ridimensionarlo tirando i bordi del grafico.
+
+### 8. **Modifica e Aggiorna i Dati del Grafico (Opzionale):**
+- Se i dati nel tuo foglio di lavoro cambiano, il grafico può essere aggiornato automaticamente. Basta modificare i dati sottostanti e il grafico si aggiorna di conseguenza.
 
 
 
