@@ -89,6 +89,68 @@ Esempio:
 ```excel
 =XOR(A1>10, B1<20, C1=0)
 ```
+__________________________________________________________
+
+
+## ESERCIZI CON IF 
+
+
+Certamente! Ecco cinque esercizi con la funzione IF (SE) in Excel:
+
+### Esercizio 1:
+Supponiamo di avere un foglio di calcolo con i voti degli studenti nella colonna A. Se un voto è maggiore o uguale a 60, vuoi assegnare "Pass" nella colonna B, altrimenti "Non passato".
+
+**Formula:**
+```excel
+=IF(A1>=60, "Pass", "Non passato")
+```
+
+### Esercizio 2:
+Hai un elenco di temperature nella colonna A. Vuoi classificare le temperature come "Caldo" se sono superiori a 30 gradi Celsius e come "Freddo" altrimenti.
+
+**Formula:**
+```excel
+=IF(A1>30, "Caldo", "Freddo")
+```
+
+### Esercizio 3:
+Hai un elenco di numeri nella colonna A. Vuoi determinare se ciascun numero è positivo, negativo o zero.
+
+**Formula:**
+```excel
+=IF(A1>0, "Positivo", IF(A1<0, "Negativo", "Zero"))
+```
+
+### Esercizio 4:
+Supponiamo che tu stia calcolando lo sconto per un elenco di prodotti nella colonna A. Se il prezzo del prodotto è superiore a 100, vuoi applicare uno sconto del 10%, altrimenti uno sconto del 5%.
+
+**Formula:**
+```excel
+=IF(A1>100, A1*0.9, A1*0.95)
+```
+
+### Esercizio 5:
+Hai un elenco di età nella colonna A. Vuoi determinare se ciascuna persona è un bambino (età inferiore a 18 anni) o un adulto (età uguale o superiore a 18 anni).
+
+**Formula:**
+```excel
+=IF(A1<18, "Bambino", "Adulto")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
