@@ -1276,10 +1276,44 @@ Esercitazione :
 Spero che questi esercizi ti aiutino a comprendere e padroneggiare le funzioni di ricerca in Excel! Puoi modificarli o creare ulteriori varianti per esercitarti ulteriormente. Buona pratica!
 
 
+_______________________________
 
 
 
+## 7 -- Ordinamento semplice e personalizzato
 
+
+### 1. **Ordinamento Semplice:**
+Per ordinare una colonna di dati in modo crescente o decrescente, segui questi passaggi:
+
+1. **Seleziona i Dati:**
+   Seleziona la colonna di dati che desideri ordinare.
+
+2. **Vai su "Dati":**
+   Clicca sulla scheda "Dati" nella barra del menu.
+
+3. **Ordinamento Crescente o Decrescente:**
+   - Per ordinare in modo crescente (dal più piccolo al più grande), clicca su "Ordina da più piccolo a più grande".
+   - Per ordinare in modo decrescente (dal più grande al più piccolo), clicca su "Ordina da più grande a più piccolo".
+
+### 2. **Ordinamento Personalizzato:**
+Per un ordinamento personalizzato basato su criteri specifici, puoi utilizzare la funzione "Ordina" e personalizzare le opzioni di ordinamento:
+
+1. **Seleziona i Dati:**
+   Seleziona l'area di dati che desideri ordinare.
+
+2. **Vai su "Dati":**
+   Clicca sulla scheda "Dati" nella barra del menu.
+
+3. **Ordina Personalizzato:**
+   - Clicca su "Ordina" nella sezione "Ordina e Filtra".
+   - Nella finestra di dialogo "Ordina", puoi selezionare la colonna per cui desideri ordinare e specificare criteri aggiuntivi.
+   - Ad esempio, puoi ordinare basandoti su un'altra colonna, utilizzando un elenco personalizzato di valori, o ordinare in modo personalizzato basandoti su un criterio specifico.
+
+4. **Conferma l'Ordine:**
+   Clicca su "OK" per applicare l'ordinamento personalizzato.
+
+Ricorda che puoi anche ordinare i dati in base a più colonne. Per farlo, nella finestra di dialogo "Ordina", aggiungi più criteri di ordinamento specificando le colonne e l'ordine per ognuna di esse.
 
 
 
