@@ -95,7 +95,6 @@ __________________________________________________________
 ## ESERCIZI CON IF 
 
 
-Certamente! Ecco cinque esercizi con la funzione IF (SE) in Excel:
 
 ### Esercizio 1:
 Supponiamo di avere un foglio di calcolo con i voti degli studenti nella colonna A. Se un voto è maggiore o uguale a 60, vuoi assegnare "Pass" nella colonna B, altrimenti "Non passato".
