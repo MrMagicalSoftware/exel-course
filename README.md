@@ -534,6 +534,63 @@ Hai un elenco di codici nella colonna A. Vuoi visualizzare "Formato valido" se i
 Questi esercizi ti consentiranno di praticare l'utilizzo della funzione IFERROR in diverse situazioni. Puoi adattare le formule in base alle tue esigenze specifiche e sperimentare con altre condizioni per ampliare le tue competenze in Excel.
 
 
+___________________________________________
+
+
+## Esercizi Misti Exel :
+
+
+
+### Esercizio 1:
+Hai un elenco di età nella colonna A e un elenco di punteggi nella colonna B. Vuoi assegnare "Ammesso" solo se l'età è maggiore o uguale a 18 e il punteggio è maggiore di 70.
+
+**Formula:**
+```excel
+=IF(AND(A1>=18, B1>70), "Ammesso", "Non Ammesso")
+```
+
+### Esercizio 2:
+Hai un elenco di voti nella colonna A. Vuoi calcolare la media dei voti solo se tutti i voti sono superiori a 50.
+
+**Formula:**
+```excel
+=IF(AND(A1>50, B1>50, C1>50, D1>50, E1>50), (A1+B1+C1+D1+E1)/5, "Almeno un voto inferiore a 50")
+```
+
+### Esercizio 3:
+Hai un elenco di numeri nella colonna A. Vuoi assegnare "Numero positivo" se il numero è positivo, "Zero" se il numero è zero, e "Numero negativo" se il numero è negativo.
+
+**Formula:**
+```excel
+=IF(A1>0, "Numero positivo", IF(A1=0, "Zero", "Numero negativo"))
+```
+
+### Esercizio 4:
+Hai un elenco di temperature nella colonna A. Vuoi assegnare "Caldo" se la temperatura è superiore a 30 gradi Celsius o "Freddo" se è inferiore a 10 gradi Celsius.
+
+**Formula:**
+```excel
+=IF(OR(A1>30, A1<10), IF(A1>30, "Caldo", "Freddo"), "Temperatura moderata")
+```
+
+### Esercizio 5:
+Hai un elenco di valori numerici nella colonna A. Vuoi assegnare "Pari" se il numero è pari e "Dispari" se è dispari. Se il valore non è un numero, visualizza "Non è un numero".
+
+**Formula:**
+```excel
+=IF(ISNUMBER(A1), IF(MOD(A1,2)=0, "Pari", "Dispari"), "Non è un numero")
+```
+
+_________________
+
+
+
+
+
+
+
+
+
 
 
 
