@@ -1472,5 +1472,137 @@ Nella sezione "Strumenti dati", troverai l'opzione "Convalida dati". Clicca su d
 ### 7. **Conferma e Applica:**
 - Dopo aver configurato i criteri di convalida come desideri, clicca su "OK" per confermare e applicare i criteri alla cella o all'intervallo di celle selezionato.
 
+_____________________________________________
+
+
+
+
+
+##  -- 12 Funzioni avanzate logiche e di database
+
+
+Le funzioni avanzate logiche e di database in Excel possono aiutarti a gestire, analizzare e manipolare grandi set di dati in modo più efficiente. Ecco alcune funzioni avanzate che potresti trovare utili:
+
+### Funzioni Logiche Avanzate:
+
+#### 1. **FUNZIONE `SE.ERRORE` (IFERROR):**
+Restituisce un valore specificato se una formula genera un errore, altrimenti restituisce il risultato della formula.
+
+**Sintassi:**
+```excel
+=SE.ERRORE(formula, valore_se_errore)
+```
+
+#### 2. **FUNZIONE `SE.ERRORE.VA` (IFNA):**
+Restituisce un valore specificato se una formula restituisce #N/A, altrimenti restituisce il risultato della formula.
+
+**Sintassi:**
+```excel
+=SE.ERRORE.VA(formula, valore_se_na)
+```
+
+### Funzioni di Database:
+
+#### 1. **FUNZIONE `ESTRAI.DATI` (DGET):**
+Estrae un singolo valore da un database basato su criteri specifici.
+
+**Sintassi:**
+```excel
+=DGET(database, campo, criteri)
+```
+
+#### 2. **FUNZIONE `SOMMA.DATI` (DSUM):**
+Calcola la somma di valori in un campo di un database basato su criteri specifici.
+
+**Sintassi:**
+```excel
+=DSUM(database, campo, criteri)
+```
+
+#### 3. **FUNZIONE `MEDIA.DATI` (DAVERAGE):**
+Calcola la media di valori in un campo di un database basato su criteri specifici.
+
+**Sintassi:**
+```excel
+=DAVERAGE(database, campo, criteri)
+```
+
+#### 4. **FUNZIONE `CONTA.DATI` (DCOUNT):**
+Conta il numero di celle non vuote in un campo di un database basato su criteri specifici.
+
+**Sintassi:**
+```excel
+=DCOUNT(database, campo, criteri)
+```
+
+### Funzioni Logiche Avanzate di Database:
+
+#### 1. **FUNZIONE `ESTRAI.DATI.ELIMINA` (DGET):**
+Estrae un singolo valore da un database e elimina i duplicati basati su criteri specifici.
+
+**Sintassi:**
+```excel
+=DGET(database, campo, criteri_unici)
+```
+
+#### 2. **FUNZIONE `CONTA.DATI.ELIMINA` (DCOUNTA):**
+Conta il numero di valori non vuoti in un campo di un database basato su criteri specifici ed elimina i duplicati.
+
+**Sintassi:**
+```excel
+=DCOUNTA(database, campo, criteri_unici)
+```
+
+Ricorda che le funzioni di database sono particolarmente utili quando si lavora con grandi insiemi di dati organizzati come un database. Puoi definire criteri specifici per estrarre, sommare, contare o eseguire altre operazioni sui dati in base a condizioni specifiche. Queste funzioni rendono la manipolazione dei dati in Excel molto più efficiente e potente.
+
+_____________________________________________________________________________________
+
+
+### Esercizio 1:
+**Obiettivo:** Utilizza la funzione `SE.ERRORE` per gestire gli errori nelle formule.
+**Domanda:** Se la cella A1 contiene un valore numerico, visualizza quel valore. Se A1 contiene un errore, mostra "Errore".
+**Formula:** `=SE.ERRORE(A1, "Errore")`
+**Soluzione:** Se A1 contiene un valore numerico, restituirà quel valore. Se A1 contiene un errore, restituirà "Errore".
+
+### Esercizio 2:
+**Obiettivo:** Usa la funzione `SE.ERRORE.VA` per gestire gli errori #N/A.
+**Domanda:** Se la cella A1 contiene #N/A, mostra "Non disponibile". Altrimenti, mostra il valore in A1.
+**Formula:** `=SE.ERRORE.VA(A1, "Non disponibile")`
+**Soluzione:** Se A1 contiene #N/A, restituirà "Non disponibile". Altrimenti, restituirà il valore di A1.
+
+### Esercizio 3:
+**Obiettivo:** Calcola la media dei voti nel database usando la funzione `DAVERAGE`.
+**Domanda:** Calcola la media dei voti per studenti di età maggiore di 20 anni nel database A2:C100.
+**Formula:** `=DAVERAGE(A2:C100, "Voto", {"Età", ">20"})`
+**Soluzione:** Calcolerà la media dei voti per gli studenti con età maggiore di 20 anni nel database A2:C100.
+
+### Esercizio 4:
+**Obiettivo:** Esegui una convalida dati con la funzione `DSUM`.
+**Domanda:** Calcola la somma dei punteggi degli studenti con età tra 18 e 25 anni nel database A2:C100.
+**Formula:** `=DSUM(A2:C100, "Voto", {"Età", ">=18", "Età", "<=25"})`
+**Soluzione:** Calcolerà la somma dei voti per gli studenti con età compresa tra 18 e 25 anni nel database A2:C100.
+
+### Esercizio 5:
+**Obiettivo:** Utilizza la funzione `DCOUNT` per contare i dati nel database.
+**Domanda:** Conta il numero di studenti con età compresa tra 18 e 25 anni nel database A2:C100.
+**Formula:** `=DCOUNT(A2:C100, "Nome", {"Età", ">=18", "Età", "<=25"})`
+**Soluzione:** Conterà il numero di studenti con età compresa tra 18 e 25 anni nel database A2:C100.
+
+### Esercizio 6:
+**Obiettivo:** Esegui una convalida dati con la funzione `DCOUNTA`.
+**Domanda:** Conta il numero di studenti con età compresa tra 18 e 25 anni nel database A2:C100 e con voti superiori a 70.
+**Formula:** `=DCOUNTA(A2:C100, "Nome", {"Età", ">=18", "Età", "<=25", "Voto", ">70"})`
+**Soluzione:** Conterà il numero di studenti con età compresa tra 18 e 25 anni e voti superiori a 70 nel database A2:C100.
+
+### Esercizio 7:
+**Obiettivo:** Usa la funzione `DGET` per estrarre un dato specifico dal database.
+**Domanda:** Estrai il voto dello studente di nome "Alice" nel database A2:C100.
+**Formula:** `=DGET(A2:C100, "Voto", {"Nome", "Alice"})`
+**Soluzione:** Estrarraà il voto dello studente di nome "Alice" dal database A2:C100.
+
+
+
+
+
 
 
