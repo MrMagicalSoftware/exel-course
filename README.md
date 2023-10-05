@@ -675,8 +675,86 @@ Ecco un elenco delle principali funzioni di data in Excel:
 19. **NETWORKDAYS(data_iniziale, data_finale, [festivi])**: Restituisce il numero di giorni lavorativi tra due date, escludendo i giorni festivi specificati.
 
 
+_____________________________________
 
 
+Esercitazione :
+
+Certamente! Ecco 25 esercizi con le relative soluzioni che coinvolgono diverse funzioni di data in Excel:
+
+### 1. Esercizio: Data Odierna
+**Descrizione:** Restituisci la data odierna.
+**Formula:** `=TODAY()`
+**Soluzione:** 01/10/2023 (formato data: gg/mm/aaaa)
+
+### 2. Esercizio: Data e Orario Correnti
+**Descrizione:** Restituisci la data e l'orario correnti.
+**Formula:** `=NOW()`
+**Soluzione:** 01/10/2023 14:30:00 (formato data: gg/mm/aaaa hh:mm:ss)
+
+### 3. Esercizio: Anno dalla Data
+**Descrizione:** Estrai l'anno dalla data "15/10/2023".
+**Formula:** `=YEAR(DATE(2023, 10, 15))`
+**Soluzione:** 2023
+
+### 4. Esercizio: Mese dalla Data
+**Descrizione:** Estrai il mese dalla data "15/10/2023".
+**Formula:** `=MONTH(DATE(2023, 10, 15))`
+**Soluzione:** 10
+
+### 5. Esercizio: Giorno dalla Data
+**Descrizione:** Estrai il giorno dalla data "15/10/2023".
+**Formula:** `=DAY(DATE(2023, 10, 15))`
+**Soluzione:** 15
+
+### 6. Esercizio: Data in Testo
+**Descrizione:** Converte la data "15/10/2023" in formato testo.
+**Formula:** `=TEXT(DATE(2023, 10, 15), "dd/mm/yyyy")`
+**Soluzione:** 15/10/2023
+
+### 7. Esercizio: Ultimo Giorno del Mese
+**Descrizione:** Calcola l'ultimo giorno del mese per "15/10/2023".
+**Formula:** `=EOMONTH(DATE(2023, 10, 15), 0)`
+**Soluzione:** 31/10/2023
+
+### 8. Esercizio: Aggiungi Mesi a una Data
+**Descrizione:** Aggiungi 3 mesi alla data "15/10/2023".
+**Formula:** `=EDATE(DATE(2023, 10, 15), 3)`
+**Soluzione:** 15/01/2024
+
+### 9. Esercizio: Differenza in Giorni tra Date
+**Descrizione:** Calcola la differenza in giorni tra "15/10/2023" e "01/01/2023".
+**Formula:** `=DATEDIF(DATE(2023, 1, 1), DATE(2023, 10, 15), "d")`
+**Soluzione:** 287
+
+### 10. Esercizio: Giorni Lavorativi tra Date
+**Descrizione:** Calcola il numero di giorni lavorativi tra "01/10/2023" e "15/10/2023".
+**Formula:** `=NETWORKDAYS(DATE(2023, 10, 1), DATE(2023, 10, 15))`
+**Soluzione:** 11
+
+### 11. Esercizio: Data in Testo Personalizzata
+**Descrizione:** Restituisci la data "15/10/2023" come "15 ottobre 2023".
+**Formula:** `=DAY(DATE(2023, 10, 15)) & " " & TEXT(DATE(2023, 10, 15), "mmmm yyyy")`
+**Soluzione:** 15 ottobre 2023
+
+### 12. Esercizio: Data Mese Giorno
+**Descrizione:** Restituisci la data "15/10/2023" nel formato "MM/GG/AAAA".
+**Formula:** `=TEXT(DATE(2023, 10, 15), "mm/dd/yyyy")`
+**Soluzione:** 10/15/2023
+
+### 13. Esercizio: Data Ultimo Giorno del Mese Successivo
+**Descrizione:** Calcola l'ultimo giorno del mese successivo a "15/10/2023".
+**Formula:** `=EOMONTH(DATE(2023, 10, 15), 1)`
+**Soluzione:** 30/11/2023
+
+### 14. Esercizio: Data e Orario Personalizzato
+**Descrizione:** Restituisci la data e l'orario correnti nel formato "GG/MM/AAAA HH:MM AM/PM".
+**Formula:** `=TEXT(NOW(), "dd/mm/yyyy hh:mm AM/PM")`
+**Soluzione:** 01/10/2023 02:30 PM
+
+### 15. Esercizio: Mese Successivo alla Data
+**Descrizione:** Calcola il mese successivo a "15/10/2023".
+**
 
 
 
