@@ -1696,6 +1696,10 @@ ________________
 Esecizi :
 
 
+
+
+Certamente! Ecco 10 esercizi con le relative soluzioni sulle funzioni avanzate di ricerca informazioni in Excel:
+
 ### Esercizio 1:
 **Obiettivo:** Utilizza `CERCA.VERT` per trovare il prezzo di un prodotto in base al suo codice.
 
@@ -1835,11 +1839,26 @@ Esecizi :
 
 **Formula:**
 
+ `=CERCA.RIFERIMENTO("Bob", A2:A4, 0)&CERCA.RIFERIMENTO("Bob", B2:B4, 0)&CERCA.RIFERIMENTO("Bob", C2:C4, 0)`
 
+**Risultato:** A3B3C3
 
+### Esercizio 10:
+**Obiettivo:** Utilizza `CERCA.ORIZZ` per cercare un valore in una riga specifica e restituire un valore dalla stessa colonna di un'altra riga.
 
+**Tabella:**
+```
+| Nome    | Alice | Bob | Charlie |
+|---------|-------|-----|---------|
+| Età     | 25    | 30  | 22      |
+| Voto    | 85    | 92  | 78      |
+```
 
+**Domanda:** Trova il voto di "Charlie".
 
+**Formula:** `=CERCA.ORIZZ("Charlie", A1:D2, 2, 0)`
+
+**Risultato:** 78
 
 
 
