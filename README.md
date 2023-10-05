@@ -816,7 +816,8 @@ ___________________________________________________
 ## 3 - Gestione dei file e stampe
 
 
-
+NOTA : 
+Ricorda che queste opzioni possono variare leggermente a seconda della versione specifica di Excel che stai utilizzando. Assicurati di esplorare attentamente il menu "File" e le opzioni di stampa nel tuo programma Excel per sfruttare appieno le funzionalità di gestione dei file e di stampa.
 
 
 
@@ -863,7 +864,6 @@ La gestione dei file e le stampe in Excel sono importanti aspetti che ti consent
 7. **Stampa in Serie:**
    - Se hai più fogli di lavoro che desideri stampare in serie, puoi farlo utilizzando la funzione di stampa in serie di Excel. Vai su **File > Stampa > Stampa in Serie**.
 
-Ricorda che queste opzioni possono variare leggermente a seconda della versione specifica di Excel che stai utilizzando. Assicurati di esplorare attentamente il menu "File" e le opzioni di stampa nel tuo programma Excel per sfruttare appieno le funzionalità di gestione dei file e di stampa.
 
 
 
