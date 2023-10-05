@@ -182,7 +182,93 @@ Supponiamo che tu abbia un elenco di voti negli esami di matematica e scienze ne
 
 
 
+______________________________________________________________________________________
 
+
+### esercizi con and
+
+
+### Esercizio 1:
+Hai un elenco di voti degli studenti nella colonna A e i loro punteggi di partecipazione nella colonna B. Vuoi assegnare "Promosso" solo se il voto è maggiore o uguale a 60 e il punteggio di partecipazione è maggiore di 80.
+
+**Formula:**
+```excel
+=IF(AND(A1>=60, B1>80), "Promosso", "Non promosso")
+```
+
+### Esercizio 2:
+Hai un elenco di età degli studenti nella colonna A e vuoi determinare se ciascuno di essi è un adolescente (età tra 13 e 19 anni) e se frequenta una scuola media.
+
+**Formula:**
+```excel
+=IF(AND(A1>=13, A1<=19, B1="Scuola Media"), "Adolescente in Scuola Media", "Altro")
+```
+
+### Esercizio 3:
+Hai un elenco di temperature nella colonna A e vuoi verificare se ciascuna temperatura è superiore a 0 gradi Celsius e inferiore a 100 gradi Celsius.
+
+**Formula:**
+```excel
+=IF(AND(A1>0, A1<100), "Valida", "Non valida")
+```
+
+### Esercizio 4:
+Hai un elenco di orari nella colonna A e vuoi determinare se ciascun orario è tra le 9 del mattino e le 5 del pomeriggio.
+
+**Formula:**
+```excel
+=IF(AND(A1>=9:00, A1<=17:00), "Orario lavorativo", "Fuori orario")
+```
+
+### Esercizio 5:
+Hai un elenco di numeri nella colonna A, B e C. Vuoi assegnare "Tutti positivi" solo se tutti e tre i numeri sono positivi.
+
+**Formula:**
+```excel
+=IF(AND(A1>0, B1>0, C1>0), "Tutti positivi", "Non tutti positivi")
+```
+
+### Esercizio 6:
+Hai un elenco di valori nella colonna A. Vuoi verificare se ciascun valore è una stringa di testo e contiene la parola "Excel".
+
+**Formula:**
+```excel
+=IF(AND(ISTEXT(A1), FIND("Excel", A1) > 0), "Contiene Excel", "Non contiene Excel")
+```
+
+### Esercizio 7:
+Hai un elenco di dati nella colonna A e vuoi verificare se ciascun dato è un numero intero positivo.
+
+**Formula:**
+```excel
+=IF(AND(ISNUMBER(A1), A1=INT(A1), A1>0), "Numero intero positivo", "Non è un numero intero positivo")
+```
+
+### Esercizio 8:
+Hai un elenco di orari nella colonna A. Vuoi verificare se ciascun orario è uguale o successivo a un'ora specifica, ad esempio le 14:30.
+
+**Formula:**
+```excel
+=IF(AND(A1>=14:30), "Uguale o successivo a 14:30", "Antecedente a 14:30")
+```
+
+### Esercizio 9:
+Hai un elenco di temperature nella colonna A e vuoi verificare se ciascuna temperatura è superiore a una soglia specifica, ad esempio 25 gradi Celsius.
+
+**Formula:**
+```excel
+=IF(AND(A1>25), "Superiore a 25 gradi", "Non superiore a 25 gradi")
+```
+
+### Esercizio 10:
+Hai un elenco di numeri nella colonna A, B e C. Vuoi assegnare "Tutti pari" solo se tutti e tre i numeri sono pari.
+
+**Formula:**
+```excel
+=IF(AND(MOD(A1,2)=0, MOD(B1,2)=0, MOD(C1,2)=0), "Tutti pari", "Non tutti pari")
+```
+
+Puoi utilizzare queste formule nelle tue celle Excel per eseguire le verifiche logiche descritte negli esercizi. Assicurati di adattare le formule in base alla disposizione specifica dei dati nel tuo foglio di calcolo.
 
 
 
