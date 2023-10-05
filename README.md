@@ -4,13 +4,13 @@
 <pre>
 • EXCEL intermedio/avanzato<br>
 • Programma: 
-• Funzione logiche 
-• Funzioni di data
-• Gestione dei file e stampe
-• Importazione e esportazione di file in/da altri formati
-• Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
-• Le funzioni di ricerca
-• Ordinamento semplice e personalizzato
+• 1 Funzione logiche 
+• 2 Funzioni di data
+• 3 Gestione dei file e stampe
+• 4 Importazione e esportazione di file in/da altri formati
+• 5 Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
+• 6 Le funzioni di ricerca
+• 7 Ordinamento semplice e personalizzato
 • Inserimento di grafici
 • Operazioni con i Nomi di Zona
 • Progettazione e costruzione di un database in Excel
@@ -972,9 +972,172 @@ La funzione `CONCATENA` (o `CONCATENATE` in inglese) unisce diverse stringhe in 
 =CONCATENA("Excel", " è", " potente")  // Restituirà "Excel è potente"
 ```
 
-Queste sono solo alcune delle funzioni di testo disponibili in Excel. Puoi utilizzare queste funzioni insieme per creare formule complesse che soddisfano le tue esigenze specifiche nel manipolare dati testuali. Ricorda di consultare la guida di Excel o l'assistenza online per ulteriori dettagli e opzioni relative a queste funzioni.
+______________
 
 
+Esercitazione :
+
+
+### Esercizio 1:
+**Obiettivo:** Estrai i primi 5 caratteri dalla cella A1.
+**Formula:** `=STRINGA.ESTRAI(A1, 1, 5)`
+**Soluzione:** Se A1 contiene "Excel2023", la formula restituirà "Excel".
+
+### Esercizio 2:
+**Obiettivo:** Estrai gli ultimi 3 caratteri dalla cella B2.
+**Formula:** `=STRINGA.ESTRAI(B2, LUNGHEZZA(B2)-2, 3)`
+**Soluzione:** Se B2 contiene "Dati", la formula restituirà "ati".
+
+### Esercizio 3:
+**Obiettivo:** Trova la posizione della lettera "o" nella cella C3.
+**Formula:** `=TROVA("o", C3)`
+**Soluzione:** Se C3 contiene "Workbook", la formula restituirà 5.
+
+### Esercizio 4:
+**Obiettivo:** Estrai la parte sinistra della cella D4 fino al carattere ",".
+**Formula:** `=SINISTRA(D4, TROVA(",", D4)-1)`
+**Soluzione:** Se D4 contiene "OpenAI, Inc.", la formula restituirà "OpenAI".
+
+### Esercizio 5:
+**Obiettivo:** Concatena il contenuto delle celle E5 ed F5 con uno spazio tra di loro.
+**Formula:** `=CONCATENA(E5, " ", F5)`
+**Soluzione:** Se E5 contiene "Buongiorno" e F5 contiene "Mondo!", la formula restituirà "Buongiorno Mondo!".
+
+### Esercizio 6:
+**Obiettivo:** Estrai il testo tra le parentesi quadre nella cella G6.
+**Formula:** `=STRINGA.ESTRAI(G6, TROVA("[", G6)+1, TROVA("]", G6)-TROVA("[", G6)-1)`
+**Soluzione:** Se G6 contiene "Dati [Aggiornati]", la formula restituirà "Aggiornati".
+
+### Esercizio 7:
+**Obiettivo:** Trova la posizione della seconda occorrenza di "o" nella cella H7.
+**Formula:** `=TROVA("o", H7, TROVA("o", H7)+1)`
+**Soluzione:** Se H7 contiene "Foglio", la formula restituirà 4.
+
+### Esercizio 8:
+**Obiettivo:** Estrai l'ultima parola dalla cella I8.
+**Formula:** `=DESTRA(I8, LUNGHEZZA(I8)-TROVA("@", SOSTITUISCI(I8, " ", "@"))`
+**Soluzione:** Se I8 contiene "Esercizi di Excel", la formula restituirà "Excel".
+
+### Esercizio 9:
+**Obiettivo:** Sostituisci tutte le occorrenze di "a" con "o" nella cella J9.
+**Formula:** `=SOSTITUISCI(J9, "a", "o")`
+**Soluzione:** Se J9 contiene "Parola", la formula restituirà "Porolo".
+
+### Esercizio 10:
+**Obiettivo:** Concatena il contenuto delle celle K10, L10 e M10.
+**Formula:** `=CONCATENA(K10, L10, M10)`
+**Soluzione:** Se K10 contiene "Ciao", L10 contiene "come", e M10 contiene "stai?", la formula restituirà "Ciaocomestai?".
+
+_______________________
+
+
+Esericizi MISTI : 
+
+
+
+Certamente! Ecco 25 esercizi con relative soluzioni che coinvolgono diverse funzioni di Excel, tra cui funzioni di matematica, testo, logiche e data:
+
+### Esercizio 1:
+Calcola la somma dei numeri da 1 a 100.
+**Soluzione:** `=SOMMA(1:100)`
+
+### Esercizio 2:
+Moltiplica il valore nella cella A1 per 5.
+**Soluzione:** `=A1*5`
+
+### Esercizio 3:
+Restituisci la lunghezza del testo nella cella B2.
+**Soluzione:** `=LUNGHEZZA(B2)`
+
+### Esercizio 4:
+Concatena il testo "Buongiorno, " con il contenuto della cella C3.
+**Soluzione:** `="Buongiorno, "&C3`
+
+### Esercizio 5:
+Restituisci la radice quadrata del numero nella cella A5.
+**Soluzione:** `=RADQ(A5)`
+
+### Esercizio 6:
+Restituisci il valore massimo tra A2, B2 e C2.
+**Soluzione:** `=MAX(A2:C2)`
+
+### Esercizio 7:
+Restituisci TRUE se il valore nella cella D7 è maggiore di 10, altrimenti FALSE.
+**Soluzione:** `=D7>10`
+
+### Esercizio 8:
+Restituisci la data di oggi.
+**Soluzione:** `=OGGI()`
+
+### Esercizio 9:
+Calcola la differenza in giorni tra la data nella cella E9 e oggi.
+**Soluzione:** `=OGGI()-E9`
+
+### Esercizio 10:
+Restituisci la parte intera del numero nella cella F10.
+**Soluzione:** `=INT(F10)`
+
+### Esercizio 11:
+Restituisci il risultato della funzione SIN per l'angolo in radianti nella cella G11.
+**Soluzione:** `=SIN(G11)`
+
+### Esercizio 12:
+Conta quante celle nella colonna H contengono il valore "X".
+**Soluzione:** `=CONTA.SE(H:H, "X")`
+
+### Esercizio 13:
+Verifica se la cella I13 contiene la parola "Excel".
+**Soluzione:** `=TROVA("Excel", I13)>0`
+
+### Esercizio 14:
+Crea una lista separata da virgole dei valori nella colonna J.
+**Soluzione:** `=CONCATENA(J:J, ", ")`
+
+### Esercizio 15:
+Calcola la media dei numeri non vuoti nella colonna K.
+**Soluzione:** `=MEDIA.SENZA.VUOTO(K:K)`
+
+### Esercizio 16:
+Restituisci il valore massimo tra i numeri nella colonna L, escludendo zeri.
+**Soluzione:** `=MAX.NON.ZERO(L:L)`
+
+### Esercizio 17:
+Restituisci TRUE se la cella M17 è una data, altrimenti FALSE.
+**Soluzione:** `=È.DATA(M17)`
+
+### Esercizio 18:
+Restituisci l'orario corrente in formato AM/PM.
+**Soluzione:** `=TEXT(ORA.OGGI(), "hh:mm AM/PM")`
+
+### Esercizio 19:
+Restituisci il nome del mese corrispondente alla data nella cella N19.
+**Soluzione:** `=MESE.NOME(N19)`
+
+### Esercizio 20:
+Restituisci TRUE se la cella O20 contiene un valore di errore, altrimenti FALSE.
+**Soluzione:** `=È.ERRORE(O20)`
+
+### Esercizio 21:
+Concatena il testo "Il valore nella cella P21 è " con il valore nella cella P21.
+**Soluzione:** `="Il valore nella cella P21 è "&P21`
+
+### Esercizio 22:
+Calcola la somma di tutti i numeri compresi tra 1 e 50.
+**Soluzione:** `=SOMMA(1:50)`
+
+### Esercizio 23:
+Restituisci il carattere nella posizione 3 della cella Q23.
+**Soluzione:** `=STRINGA.ESTRAI(Q23, 3, 1)`
+
+### Esercizio 24:
+Conta quante volte il carattere "a" appare nella cella R24 (senza fare distinzione tra maiuscole e minuscole).
+**Soluzione:** `=LUNGHEZZA(R24)-LUNGHEZZA(SOSTITUISCI(R24, "a", ""))`
+
+### Esercizio 25:
+Restituisci la data odierna nel formato "gg/mese/anno".
+**Soluzione:** `=TEXT(OGGI(), "dd/mmmm/yyyy")`
+
+Spero che questi esercizi ti aiutino a praticare e a comprendere meglio le diverse funzioni di Excel! Puoi modificarli o combinare più funzioni per creare esercizi più complessi secondo le tue esigenze
 
 
 
