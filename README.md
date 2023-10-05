@@ -678,9 +678,8 @@ Ecco un elenco delle principali funzioni di data in Excel:
 _____________________________________
 
 
-Esercitazione :
+## Esercitazione :
 
-Certamente! Ecco 25 esercizi con le relative soluzioni che coinvolgono diverse funzioni di data in Excel:
 
 ### 1. Esercizio: Data Odierna
 **Descrizione:** Restituisci la data odierna.
@@ -756,10 +755,58 @@ Certamente! Ecco 25 esercizi con le relative soluzioni che coinvolgono diverse f
 **Descrizione:** Calcola il mese successivo a "15/10/2023".
 **
 
+Formula:** `=TEXT(DATE(2023, 10, 15) + 30, "mmmm")`
+**Soluzione:** novembre
 
+### 16. Esercizio: Data Ultimo Giorno dell'Anno Corrente
+**Descrizione:** Calcola l'ultimo giorno dell'anno corrente.
+**Formula:** `=EOMONTH(DATE(TODAY(), 1, 1), 11)`
+**Soluzione:** 31/12/2023
 
+### 17. Esercizio: Data del Primo Giorno del Mese Corrente
+**Descrizione:** Calcola il primo giorno del mese corrente.
+**Formula:** `=DATE(YEAR(TODAY()), MONTH(TODAY()), 1)`
+**Soluzione:** 01/10/2023
 
+### 18. Esercizio: Giorni Lavorativi tra Due Date Personalizzate
+**Descrizione:** Calcola il numero di giorni lavorativi tra "01/01/2023" e "15/10/2023" escludendo i mercoledì.
+**Formula:** `=NETWORKDAYS.INTL(DATE(2023, 1, 1), DATE(2023, 10, 15), 1111110)`
+**Soluzione:** 199
 
+### 19. Esercizio: Aggiungi 15 Giorni alla Data di Nascita
+**Descrizione:** Aggiungi 15 giorni alla tua data di nascita.
+**Formula:** `=DATE(YEAR("15/10/1990"), MONTH("15/10/1990"), DAY("15/10/1990") + 15)`
+**Soluzione:** 30/10/1990
+
+### 20. Esercizio: Aggiungi 2 Ore all'Orario Corrente
+**Descrizione:** Aggiungi 2 ore all'orario corrente.
+**Formula:** `=NOW() + TIME(2, 0, 0)`
+**Soluzione:** 01/10/2023 16:30:00 (formato data: gg/mm/aaaa hh:mm:ss)
+
+### 21. Esercizio: Nome del Giorno dalla Data Futura
+**Descrizione:** Restituisci il nome del giorno per "15/11/2023".
+**Formula:** `=TEXT(DATE(2023, 11, 15), "dddd")`
+**Soluzione:** giovedì
+
+### 22. Esercizio: Tronca l'Orario Corrente alle Ore
+**Descrizione:** Tronca l'orario corrente alle ore.
+**Formula:** `=TRUNC(NOW())`
+**Soluzione:** 01/10/2023 00:00:00 (formato data: gg/mm/aaaa hh:mm:ss)
+
+### 23. Esercizio: Tronca l'Orario Corrente alle Mezze Ore
+**Descrizione:** Tronca l'orario corrente alle mezze ore.
+**Formula:** `=MROUND(NOW(), TIME(0, 30, 0))`
+**Soluzione:** 01/10/2023 14:30:00 (formato data: gg/mm/aaaa hh:mm:ss)
+
+### 24. Esercizio: Calcola l'Era
+**Descrizione:** Restituisci l'era per "15/10/2023" (A.C. o D.C.).
+**Formula:** `=IF(YEAR(DATE(2023, 10, 15)) <= 0, "A.C.", "D.C.")`
+**Soluzione:** D.C.
+
+### 25. Esercizio: Calcola l'Età
+**Descrizione:** Calcola l'età a partire dalla data di nascita "15/10/1990".
+**Formula:** `=DATEDIF(DATE(1990, 10, 15), TODAY(), "Y")`
+**Soluzione:** 32 anni
 
 
 
