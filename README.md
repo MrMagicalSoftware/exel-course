@@ -1351,11 +1351,42 @@ Creare un grafico in Excel è un processo relativamente semplice e può essere f
 ### 8. **Modifica e Aggiorna i Dati del Grafico (Opzionale):**
 - Se i dati nel tuo foglio di lavoro cambiano, il grafico può essere aggiornato automaticamente. Basta modificare i dati sottostanti e il grafico si aggiorna di conseguenza.
 
+_________________________________
+
+## 9 Operazioni con i Nomi di Zona
+
+I nomi di zona possono semplificare notevolmente la gestione dei dati e l'organizzazione del foglio di lavoro in Excel, rendendo più semplice l'utilizzo delle formule e la creazione di grafici e tabelle pivot.
+
+In Excel, i nomi di zona sono un modo efficace per organizzare e riferirsi a un gruppo di celle in modo più intuitivo rispetto agli indirizzi di cella standard. Puoi eseguire diverse operazioni utilizzando i nomi di zona. Ecco alcune operazioni comuni che puoi eseguire con i nomi di zona:
 
 
+### 1. **Creare un Nome di Zona:**
+- Seleziona il gruppo di celle che desideri denominare.
+- Clicca sulla casella di riferimento degli indirizzi (in basso a sinistra) e inserisci il nome per la zona.
+  
+### 2. **Modificare un Nome di Zona:**
+- Vai su "Formule" nella barra del menu e seleziona "Gestisci Nomi". Qui puoi modificare il nome di una zona esistente.
 
+### 3. **Usare un Nome di Zona in una Formula:**
+- Puoi utilizzare direttamente il nome di una zona in una formula. Ad esempio, se hai denominato un gruppo di celle come "MieiDati", puoi utilizzare `=MEDIA(MieiDati)` invece di `=MEDIA(A1:A10)`.
 
+### 4. **Cancellare un Nome di Zona:**
+- Vai su "Formule" nella barra del menu, seleziona "Gestisci Nomi" e scegli il nome di zona che desideri eliminare. Clicca su "Elimina".
 
+### 5. **Navigare tra le Zone Nominative:**
+- Puoi utilizzare la casella di riferimento degli indirizzi per selezionare rapidamente una zona nominativa. Basta iniziare a digitare il nome della zona e Excel lo suggerirà.
+
+### 6. **Utilizzare i Nomi di Zona in Grafici:**
+- Quando crei un grafico, puoi utilizzare nomi di zona come serie di dati. Questo rende i grafici più leggibili e facilmente aggiornabili se i dati cambiano.
+
+### 7. **Copiare o Spostare i Nomi di Zona tra Fogli di Lavoro:**
+- Puoi copiare o spostare nomi di zona tra fogli di lavoro. Vai su "Formule" > "Gestisci Nomi" > "Nuovo" o "Modifica" e seleziona il foglio di lavoro di destinazione.
+
+### 8. **Utilizzare i Nomi di Zona in Tabelle Pivot:**
+- Quando crei una tabella pivot, puoi utilizzare nomi di zona come origine dei dati. Questo facilita l'aggiornamento dei dati nella tabella pivot.
+
+### 9. **Riferirsi a un Nome di Zona in VBA (Visual Basic for Applications):**
+- Se stai utilizzando VBA per automatizzare compiti in Excel, puoi riferirti ai nomi di zona direttamente nel codice VBA.
 
 
 
