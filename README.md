@@ -2,11 +2,11 @@
 
 
 <pre>
-EXCEL intermedio/avanzato<br>
-Programma:  <br>
-Funzione logiche <br>
-Funzioni di data<br>
- Gestione dei file e stampe<br>
+• EXCEL intermedio/avanzato<br>
+• Programma:  <br>
+• Funzione logiche <br>
+• Funzioni di data<br>
+• Gestione dei file e stampe<br>
 • Importazione e esportazione di file in/da altri formati<br>
 • Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)<br>
 • Le funzioni di ricerca<br>
