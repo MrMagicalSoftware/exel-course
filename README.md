@@ -1439,9 +1439,38 @@ Progettare e costruire un database in Excel può sembrare complicato, ma seguend
 Excel è più adatto per database di piccole e medie dimensioni. Se stai gestendo un grande volume di dati o se il tuo database richiede funzionalità più avanzate, potresti voler considerare l'uso di un software di database dedicato come Microsoft Access o altri sistemi di gestione dei database relazionali (RDBMS) come MySQL, PostgreSQL o SQL Server.
 
 
+_______________________________
 
 
+## -- 11 Applicazione dei criteri di convalida
 
+
+L'applicazione dei criteri di convalida in Excel consente di controllare quali dati possono essere inseriti in una cella o in un intervallo di celle. Questo è utile per garantire che i dati inseriti rispettino determinate regole o criteri, migliorando così l'integrità e l'accuratezza dei dati nel tuo foglio di lavoro. Ecco come puoi applicare i criteri di convalida:
+
+Una volta applicati, i criteri di convalida impediranno agli utenti di inserire dati che non soddisfano i requisiti specificati, contribuendo così a mantenere l'integrità dei dati nel tuo foglio di lavoro. Puoi anche copiare e incollare le celle con i criteri di convalida in altre parti del tuo foglio di lavoro per applicare le stesse regole a diverse sezioni.
+
+
+### 1. **Seleziona la Cella o l'Intervallo di Celle:**
+Seleziona la cella o l'intervallo di celle in cui vuoi applicare il criterio di convalida.
+
+### 2. **Vai su "Dati" nella Barra del Menu:**
+Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+### 3. **Clicca su "Convalida dati":**
+Nella sezione "Strumenti dati", troverai l'opzione "Convalida dati". Clicca su di essa.
+
+### 4. **Imposta il Tipo di Criterio:**
+- Nella finestra di dialogo "Convalida dati", seleziona il tipo di criterio che desideri applicare. Puoi scegliere tra criterio di intervallo, lista, data, lunghezza del testo, numerico, personalizzato, ecc.
+
+### 5. **Configura i Dettagli del Criterio:**
+- A seconda del tipo di criterio selezionato, configura i dettagli del criterio. Ad esempio, se stai impostando un criterio numerico, specifica se i dati devono essere compresi in un certo intervallo.
+- Puoi anche personalizzare i messaggi di errore che verranno visualizzati se i dati inseriti non soddisfano il criterio.
+
+### 6. **Opzioni Aggiuntive (Opzionale):**
+- Nella stessa finestra di dialogo, puoi esplorare le altre schede come "Input del messaggio" per fornire suggerimenti all'utente, e "Errore di input" per personalizzare il messaggio di errore se i dati inseriti non soddisfano i criteri.
+
+### 7. **Conferma e Applica:**
+- Dopo aver configurato i criteri di convalida come desideri, clicca su "OK" per confermare e applicare i criteri alla cella o all'intervallo di celle selezionato.
 
 
 
