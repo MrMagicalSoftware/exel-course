@@ -1146,6 +1146,142 @@ __________________________
 
 # -- 6 Le funzioni di ricerca
 
+### 1. **FUNZIONE `TROVA` (FIND)**
+
+La funzione `TROVA` restituisce la posizione di una sottostringa in una stringa di testo. Se la sottostringa non viene trovata, la funzione restituisce l'errore `#VALORE!`.
+
+**Sintassi:**
+```excel
+=TROVA(sottostringa, testo, [posizione_iniziale])
+```
+
+**Esempio:**
+```excel
+=TROVA("esempio", "Questo è un esempio di ricerca.")  // Restituirà 13
+```
+
+### 2. **FUNZIONE `CERCA` (SEARCH)**
+
+La funzione `CERCA` è simile a `TROVA`, ma non fa distinzione tra maiuscole e minuscole durante la ricerca.
+
+**Sintassi:**
+```excel
+=CERCA(sottostringa, testo, [posizione_iniziale])
+```
+
+**Esempio:**
+```excel
+=CERCA("ESEMPIO", "Questo è un esempio di ricerca.")  // Restituirà 13
+```
+
+### 3. **FUNZIONE `TROVA.TESTO` (FIND.TEXT)**
+
+La funzione `TROVA.TESTO` è simile a `TROVA`, ma consente di specificare più di una sottostringa da cercare. Restituirà la posizione della prima sottostringa trovata.
+
+**Sintassi:**
+```excel
+=TROVA.TESTO(sottostringa1, sottostringa2, ..., testo)
+```
+
+**Esempio:**
+```excel
+=TROVA.TESTO("esempio", "caso", "prova", "Questo è un esempio di ricerca.")  // Restituirà 13
+```
+
+### 4. **FUNZIONE `CERCA.VERT` (VLOOKUP)**
+
+La funzione `CERCA.VERT` cerca un valore nella prima colonna di una tabella e restituisce un valore nella stessa riga da una colonna specificata.
+
+**Sintassi:**
+```excel
+=CERCA.VERT(valore_da_cercare, tabella, numero_colonna, [corrispondenza_esatta])
+```
+
+**Esempio:**
+```excel
+=CERCA.VERT(101, A2:B10, 2, FALSO)  // Restituirà il valore dalla colonna B dove il valore nella colonna A è 101
+```
+
+### 5. **FUNZIONE `CERCA.ORIZZ` (HLOOKUP)**
+
+La funzione `CERCA.ORIZZ` cerca un valore nella prima riga di una tabella e restituisce un valore nella stessa colonna da una riga specificata.
+
+**Sintassi:**
+```excel
+=CERCA.ORIZZ(valore_da_cercare, tabella, numero_riga, [corrispondenza_esatta])
+```
+
+**Esempio:**
+```excel
+=CERCA.ORIZZ("Prodotto A", A1:D10, 2, FALSO)  // Restituirà il valore dalla colonna B dove il valore nella riga 1 è "Prodotto A"
+```
+
+______________________________________
+
+
+Esercitazione :
+
+
+Certamente! Ecco 10 esercizi sulle funzioni di ricerca in Excel, ciascuno con la relativa soluzione:
+
+### Esercizio 1:
+**Obiettivo:** Trova la posizione della parola "Excel" nel testo nella cella A1.
+**Formula:** `=TROVA("Excel", A1)`
+**Soluzione:** Se A1 contiene "Excel è un potente strumento di foglio di calcolo", la formula restituirà 1.
+
+### Esercizio 2:
+**Obiettivo:** Trova la posizione della seconda occorrenza di "o" nel testo nella cella B2.
+**Formula:** `=TROVA("o", B2, TROVA("o", B2) + 1)`
+**Soluzione:** Se B2 contiene "Complicato", la formula restituirà 7.
+
+### Esercizio 3:
+**Obiettivo:** Cerca il valore "15" nella colonna A e restituisci il valore corrispondente dalla colonna B.
+**Formula:** `=CERCA.VERT(15, A1:B10, 2, FALSO)`
+**Soluzione:** Se A3 contiene "15", e B3 contiene "Prodotto A", la formula restituirà "Prodotto A".
+
+### Esercizio 4:
+**Obiettivo:** Trova la posizione della parola "cane" nel testo nella cella C4 senza distinzione tra maiuscole e minuscole.
+**Formula:** `=CERCA(C4, "Questo è un esempio con CANE", 1, FALSO)`
+**Soluzione:** Se C4 contiene "cane", la formula restituirà 29.
+
+### Esercizio 5:
+**Obiettivo:** Cerca il valore massimo nella colonna D e restituisci il corrispondente valore dalla colonna E.
+**Formula:** `=CERCA.VERT(MAX(D1:D100), D1:E100, 2, FALSO)`
+**Soluzione:** Se D5 contiene il valore massimo nella colonna D e E5 contiene il valore corrispondente nella colonna E, la formula restituirà il valore in E5.
+
+### Esercizio 6:
+**Obiettivo:** Cerca la parola "finale" nel testo nella cella F6 e restituisci "Trovato" se presente, altrimenti "Non trovato".
+**Formula:** `=SE(TROVA("finale", F6) > 0, "Trovato", "Non trovato")`
+**Soluzione:** Se F6 contiene "Lavoro finale", la formula restituirà "Trovato". Altrimenti, restituirà "Non trovato".
+
+### Esercizio 7:
+**Obiettivo:** Trova la posizione del carattere "@" nella cella G7 e restituisci la parte di testo che appare dopo di esso.
+**Formula:** `=STRINGA.ESTRAI(G7, TROVA("@", G7) + 1, LUNGHEZZA(G7) - TROVA("@", G7))`
+**Soluzione:** Se G7 contiene "email@example.com", la formula restituirà "example.com".
+
+### Esercizio 8:
+**Obiettivo:** Cerca il valore "B" nella riga 2 e restituisci il valore corrispondente dalla riga 5.
+**Formula:** `=CERCA.ORIZZ("B", 2:2, 1, FALSO)`
+**Soluzione:** Se B2 contiene "B" e B5 contiene il valore corrispondente, la formula restituirà il valore in B5.
+
+### Esercizio 9:
+**Obiettivo:** Trova la posizione della prima occorrenza di " " (spazio) nella cella H9.
+**Formula:** `=TROVA(" ", H9)`
+**Soluzione:** Se H9 contiene "Nome Cognome", la formula restituirà 5.
+
+### Esercizio 10:
+**Obiettivo:** Cerca il valore minimo nella colonna I e restituisci il corrispondente valore dalla colonna J.
+**Formula:** `=CERCA.VERT(MIN(I:I), I:J, 2, FALSO)`
+**Soluzione:** Se I15 contiene il valore minimo nella colonna I e J15 contiene il valore corrispondente nella colonna J, la formula restituirà il valore in J15.
+
+Spero che questi esercizi ti aiutino a comprendere e padroneggiare le funzioni di ricerca in Excel! Puoi modificarli o creare ulteriori varianti per esercitarti ulteriormente. Buona pratica!
+
+
+
+
+
+
+
 
 
 
