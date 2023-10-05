@@ -1,23 +1,23 @@
 # exel-course
 
 
-
+<pre>
 EXCEL intermedio/avanzato
-Programma:
-Funzione logiche 
-Funzioni di data
- Gestione dei file e stampe
-• Importazione e esportazione di file in/da altri formati
-• Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
-• Le funzioni di ricerca
-• Ordinamento semplice e personalizzato
-• Inserimento di grafici
-• Operazioni con i Nomi di Zona
-• Progettazione e costruzione di un database in Excel
-• Applicazione dei criteri di convalida
-• Funzioni avanzate logiche e di database
-• Funzioni avanzate di ricerca informazioni 
-• Ordinamenti semplici e a chiave multipla
+Programma:  <br>
+Funzione logiche <br>
+Funzioni di data<br>
+ Gestione dei file e stampe<br>
+• Importazione e esportazione di file in/da altri formati<br>
+• Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)<br>
+• Le funzioni di ricerca<br>
+• Ordinamento semplice e personalizzato<br>
+• Inserimento di grafici<br>
+• Operazioni con i Nomi di Zona<br>
+• Progettazione e costruzione di un database in Excel<br>
+• Applicazione dei criteri di convalida<br>
+• Funzioni avanzate logiche e di database<br>
+• Funzioni avanzate di ricerca informazioni <br>
+• Ordinamenti semplici e a chiave multipla<br>
 • Selezione mediante i filtri (semplici ed avanzati)
 • Uso dei Subtotali
 • Analisi dati con le Tabelle Pivot
@@ -31,7 +31,7 @@ Funzioni di data
 • Nascondere le formule
 • Registrare macro per automatizzare operazioni ripetitive
 • Cenni al linguaggio VBA per modificare una macro registrata in precedenza
-
+</pre>
 
 
 ## Funzione logiche 
@@ -39,6 +39,8 @@ Funzioni di data
 
 
 Excel offre una varietà di funzioni logiche che puoi utilizzare per eseguire operazioni basate su condizioni logiche. Di seguito sono elencate alcune delle funzioni logiche più comuni in Excel:
+Puoi combinare queste funzioni e utilizzarle insieme per creare formule complesse basate su condizioni logiche.
+
 
 ### 1. **IF (SE)**
 La funzione IF (SE) è una delle funzioni logiche più utilizzate in Excel. Si usa per eseguire un'operazione se una condizione è vera e un'altra operazione se la condizione è falsa.
@@ -88,7 +90,6 @@ Esempio:
 =XOR(A1>10, B1<20, C1=0)
 ```
 
-Queste sono solo alcune delle funzioni logiche disponibili in Excel. Puoi combinare queste funzioni e utilizzarle insieme per creare formule complesse basate su condizioni logiche.
 
 
 
