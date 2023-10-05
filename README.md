@@ -907,11 +907,72 @@ Excel offre diverse opzioni per importare e esportare file in/da altri formati, 
 
 
 
+_______________________________
+
+
+## 5 -- Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
 
 
 
+le funzioni di testo in Excel sono estremamente utili per manipolare e analizzare dati testuali. Ecco come puoi utilizzare alcune delle funzioni di testo più comuni in Excel:
 
+### 1. **FUNZIONE `STRINGA.ESTRAI` (MID)**
 
+La funzione `STRINGA.ESTRAI` (o `MID` in inglese) restituisce una parte specifica di una stringa, in base alla posizione iniziale e alla lunghezza specificate.
+
+**Sintassi:**
+```excel
+=STRINGA.ESTRAI(testo, posizione_iniziale, lunghezza)
+```
+
+**Esempio:**
+```excel
+=STRINGA.ESTRAI("Excel è potente", 7, 2)  // Restituirà "è "
+```
+
+### 2. **FUNZIONE `SINISTRA` (LEFT)**
+
+La funzione `SINISTRA` (o `LEFT` in inglese) restituisce un numero specificato di caratteri dalla parte sinistra di una stringa.
+
+**Sintassi:**
+```excel
+=SINISTRA(testo, numero_caratteri)
+```
+
+**Esempio:**
+```excel
+=SINISTRA("Excel è potente", 5)  // Restituirà "Excel"
+```
+
+### 3. **FUNZIONE `TROVA` (FIND)**
+
+La funzione `TROVA` (o `FIND` in inglese) trova la posizione di una sottostringa all'interno di una stringa. Se la sottostringa non viene trovata, restituirà un errore `#VALORE!`.
+
+**Sintassi:**
+```excel
+=TROVA(sottostringa, testo, [posizione_iniziale])
+```
+
+**Esempio:**
+```excel
+=TROVA("potente", "Excel è potente")  // Restituirà 10
+```
+
+### 4. **FUNZIONE `CONCATENA` (CONCATENATE)**
+
+La funzione `CONCATENA` (o `CONCATENATE` in inglese) unisce diverse stringhe in una singola stringa.
+
+**Sintassi:**
+```excel
+=CONCATENA(testo1, [testo2], ...)
+```
+
+**Esempio:**
+```excel
+=CONCATENA("Excel", " è", " potente")  // Restituirà "Excel è potente"
+```
+
+Queste sono solo alcune delle funzioni di testo disponibili in Excel. Puoi utilizzare queste funzioni insieme per creare formule complesse che soddisfano le tue esigenze specifiche nel manipolare dati testuali. Ricorda di consultare la guida di Excel o l'assistenza online per ulteriori dettagli e opzioni relative a queste funzioni.
 
 
 
