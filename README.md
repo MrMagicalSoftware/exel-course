@@ -11,26 +11,26 @@
 • 5 Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
 • 6 Le funzioni di ricerca
 • 7 Ordinamento semplice e personalizzato
-• Inserimento di grafici
-• Operazioni con i Nomi di Zona
-• Progettazione e costruzione di un database in Excel
-• Applicazione dei criteri di convalida
-• Funzioni avanzate logiche e di database
-• Funzioni avanzate di ricerca informazioni
-• Ordinamenti semplici e a chiave multipla
-• Selezione mediante i filtri (semplici ed avanzati)
-• Uso dei Subtotali
-• Analisi dati con le Tabelle Pivot
-• Grafici di tabelle Pivot
-• Power Pivot: analisi di business intelligence
-• Importare dati esterni con Power Query
-• Funzionalità Scenari per confrontare ed analizzare i dati
-• Strumento Risolutore per risolvere problemi complessi
-• Consolidamento dei dati (Consolida)
-• Proteggere fogli e cartelle 
-• Nascondere le formule
-• Registrare macro per automatizzare operazioni ripetitive
-• Cenni al linguaggio VBA per modificare una macro registrata in precedenza
+• 8 Inserimento di grafici
+• 9 Operazioni con i Nomi di Zona
+• 10 Progettazione e costruzione di un database in Excel
+• 11 Applicazione dei criteri di convalida
+• 12 Funzioni avanzate logiche e di database
+• 13 Funzioni avanzate di ricerca informazioni
+• 14 Ordinamenti semplici e a chiave multipla
+• 15 Selezione mediante i filtri (semplici ed avanzati)
+• 16 Uso dei Subtotali
+• 17 Analisi dati con le Tabelle Pivot
+• 18 Grafici di tabelle Pivot
+• 19 Power Pivot: analisi di business intelligence
+• 20 Importare dati esterni con Power Query
+• 21 Funzionalità Scenari per confrontare ed analizzare i dati
+• 22 Strumento Risolutore per risolvere problemi complessi
+• 23 Consolidamento dei dati (Consolida)
+• 24 Proteggere fogli e cartelle 
+• 25 Nascondere le formule
+• 26 Registrare macro per automatizzare operazioni ripetitive
+• 27 Cenni al linguaggio VBA per modificare una macro registrata in precedenza
 </pre>
 
 
