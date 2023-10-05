@@ -1222,7 +1222,6 @@ ______________________________________
 Esercitazione :
 
 
-Certamente! Ecco 10 esercizi sulle funzioni di ricerca in Excel, ciascuno con la relativa soluzione:
 
 ### Esercizio 1:
 **Obiettivo:** Trova la posizione della parola "Excel" nel testo nella cella A1.
