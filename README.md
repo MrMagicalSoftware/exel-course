@@ -632,6 +632,70 @@ Puoi inserire un intervallo direttamente nelle caselle di input delle formule o 
 
 
 
+__________________
+
+
+## Funzioni di data :
+
+
+In Excel, ci sono diverse funzioni di data che puoi utilizzare per eseguire operazioni su dati di data e ora. 
+
+il formato e la lingua del tuo Excel possono influenzare la rappresentazione delle date e le funzioni disponibili. Puoi consultare la documentazione di Excel o il menu di aiuto di Excel per ulteriori dettagli e opzioni specifiche relative alle funzioni di data nel tuo ambiente Excel specifico.
+
+
+Ecco un elenco delle principali funzioni di data in Excel:
+
+### Funzioni di Data di Base:
+1. **TODAY()**: Restituisce la data odierna.
+2. **NOW()**: Restituisce la data e l'orario correnti.
+3. **DATE(anno, mese, giorno)**: Restituisce una data in base agli argomenti specificati.
+4. **TIME(ora, minuto, secondo)**: Restituisce un orario in base agli argomenti specificati.
+
+### Estrazione di Componenti dalla Data:
+5. **YEAR(data)**: Restituisce l'anno dalla data specificata.
+6. **MONTH(data)**: Restituisce il mese dalla data specificata (da 1 a 12).
+7. **DAY(data)**: Restituisce il giorno del mese dalla data specificata.
+8. **HOUR(ora)**: Restituisce l'ora dalla data o dall'orario specificato.
+9. **MINUTE(ora)**: Restituisce i minuti dalla data o dall'orario specificato.
+10. **SECOND(ora)**: Restituisce i secondi dalla data o dall'orario specificato.
+
+### Operazioni su Date:
+11. **DATEVALUE(testo)**: Converte una data in formato testo in un valore numerico della data.
+12. **TIMEVALUE(testo)**: Converte un orario in formato testo in un valore numerico dell'orario.
+13. **DATEDIF(data_iniziale, data_finale, "unità")**: Calcola la differenza tra due date in base all'unità specificata ("y" per anni, "m" per mesi, "d" per giorni, ecc.).
+
+### Formattazione di Date e Orari:
+14. **TEXT(data, "formato")**: Converte una data o un orario in formato testo utilizzando il formato specificato.
+15. **DAYNAME(data)**: Restituisce il nome del giorno dalla data specificata.
+16. **MONTHNAME(data)**: Restituisce il nome del mese dalla data specificata.
+
+### Manipolazione Avanzata:
+17. **EDATE(data, numero_mesi)**: Restituisce la data che si trova a un certo numero di mesi prima o dopo la data specificata.
+18. **EOMONTH(data, numero_mesi)**: Restituisce l'ultimo giorno del mese, un numero specificato di mesi prima o dopo la data specificata.
+19. **NETWORKDAYS(data_iniziale, data_finale, [festivi])**: Restituisce il numero di giorni lavorativi tra due date, escludendo i giorni festivi specificati.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
