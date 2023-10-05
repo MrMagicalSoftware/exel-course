@@ -3,21 +3,21 @@
 
 <pre>
 • EXCEL intermedio/avanzato<br>
-• Programma:  <br>
-• Funzione logiche <br>
-• Funzioni di data<br>
-• Gestione dei file e stampe<br>
-• Importazione e esportazione di file in/da altri formati<br>
-• Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)<br>
-• Le funzioni di ricerca<br>
-• Ordinamento semplice e personalizzato<br>
-• Inserimento di grafici<br>
-• Operazioni con i Nomi di Zona<br>
-• Progettazione e costruzione di un database in Excel<br>
-• Applicazione dei criteri di convalida<br>
-• Funzioni avanzate logiche e di database<br>
-• Funzioni avanzate di ricerca informazioni <br>
-• Ordinamenti semplici e a chiave multipla<br>
+• Programma: 
+• Funzione logiche 
+• Funzioni di data
+• Gestione dei file e stampe
+• Importazione e esportazione di file in/da altri formati
+• Le funzioni di testo (stringa.estrai, sinistra, trova, concatena)
+• Le funzioni di ricerca
+• Ordinamento semplice e personalizzato
+• Inserimento di grafici
+• Operazioni con i Nomi di Zona
+• Progettazione e costruzione di un database in Excel
+• Applicazione dei criteri di convalida
+• Funzioni avanzate logiche e di database
+• Funzioni avanzate di ricerca informazioni
+• Ordinamenti semplici e a chiave multipla
 • Selezione mediante i filtri (semplici ed avanzati)
 • Uso dei Subtotali
 • Analisi dati con le Tabelle Pivot
