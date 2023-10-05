@@ -447,7 +447,91 @@ Hai un elenco di stringhe di testo nella colonna A. Vuoi verificare se ciascuna 
 ```
 
 
+________________________________________________________________________________
 
+## Esercizi funzione IFERROR (SE.ERRORE) in Excel:
+
+### Esercizio 1:
+Hai un elenco di calcoli nella colonna A. Vuoi visualizzare "Errore di calcolo" se c'è un errore, altrimenti il risultato del calcolo.
+
+**Formula:**
+```excel
+=IFERROR(A1, "Errore di calcolo")
+```
+
+### Esercizio 2:
+Hai un elenco di numeri nella colonna A. Vuoi calcolare il reciproco di ciascun numero e visualizzare "Errore" se il numero è zero.
+
+**Formula:**
+```excel
+=IFERROR(1/A1, "Errore")
+```
+
+### Esercizio 3:
+Hai un elenco di valori nella colonna A. Vuoi visualizzare "Maggiore di 10" se il valore è maggiore di 10, altrimenti "Minore o uguale a 10".
+
+**Formula:**
+```excel
+=IFERROR(IF(A1>10, "Maggiore di 10", "Minore o uguale a 10"), "Errore")
+```
+
+### Esercizio 4:
+Hai un elenco di prezzi nella colonna A e un elenco di quantità nella colonna B. Vuoi calcolare l'importo totale e visualizzare "Errore" se uno dei valori è errato.
+
+**Formula:**
+```excel
+=IFERROR(A1*B1, "Errore")
+```
+
+### Esercizio 5:
+Hai un elenco di date nella colonna A. Vuoi visualizzare "Data valida" se la data è valida, altrimenti "Data non valida".
+
+**Formula:**
+```excel
+=IFERROR(IF(DATE(YEAR(A1), MONTH(A1), DAY(A1))=A1, "Data valida", "Data non valida"), "Errore")
+```
+
+### Esercizio 6:
+Hai un elenco di stringhe di testo nella colonna A. Vuoi visualizzare "Lunghezza valida" se la lunghezza della stringa è inferiore a 10 caratteri, altrimenti "Lunghezza non valida".
+
+**Formula:**
+```excel
+=IFERROR(IF(LEN(A1)<10, "Lunghezza valida", "Lunghezza non valida"), "Errore")
+```
+
+### Esercizio 7:
+Hai un elenco di numeri nella colonna A. Vuoi visualizzare "Numero positivo" se il numero è positivo, altrimenti "Numero non positivo".
+
+**Formula:**
+```excel
+=IFERROR(IF(A1>0, "Numero positivo", "Numero non positivo"), "Errore")
+```
+
+### Esercizio 8:
+Hai un elenco di valori nella colonna A. Vuoi visualizzare "Pari" se il valore è pari, altrimenti "Dispari".
+
+**Formula:**
+```excel
+=IFERROR(IF(MOD(A1,2)=0, "Pari", "Dispari"), "Errore")
+```
+
+### Esercizio 9:
+Hai un elenco di percentuali nella colonna A. Vuoi visualizzare "Valido" se la percentuale è compresa tra 0 e 100, altrimenti "Non valido".
+
+**Formula:**
+```excel
+=IFERROR(IF(AND(A1>=0, A1<=100), "Valido", "Non valido"), "Errore")
+```
+
+### Esercizio 10:
+Hai un elenco di codici nella colonna A. Vuoi visualizzare "Formato valido" se il codice segue un formato specifico, altrimenti "Formato non valido".
+
+**Formula:**
+```excel
+=IFERROR(IF(REGEXMATCH(A1, "^[A-Z]{3}-\d{3}$"), "Formato valido", "Formato non valido"), "Errore")
+```
+
+Questi esercizi ti consentiranno di praticare l'utilizzo della funzione IFERROR in diverse situazioni. Puoi adattare le formule in base alle tue esigenze specifiche e sperimentare con altre condizioni per ampliare le tue competenze in Excel.
 
 
 
