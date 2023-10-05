@@ -139,6 +139,46 @@ Hai un elenco di età nella colonna A. Vuoi determinare se ciascuna persona è u
 
 
 
+### Esercizio 6:
+Hai un elenco di punteggi degli studenti nella colonna A. Se il punteggio è maggiore o uguale a 90, assegna "Eccellente", se è tra 70 e 89 assegna "Buono", altrimenti assegna "Da migliorare".
+
+**Formula:**
+```excel
+=IF(A1>=90, "Eccellente", IF(A1>=70, "Buono", "Da migliorare"))
+```
+
+### Esercizio 7:
+Hai un elenco di numeri nella colonna A. Se il numero è pari, restituisci "Pari", altrimenti restituisci "Dispari".
+
+**Formula:**
+```excel
+=IF(MOD(A1,2)=0, "Pari", "Dispari")
+```
+
+### Esercizio 8:
+Supponiamo che tu abbia un elenco di prodotti nella colonna A e un elenco di quantità nella colonna B. Vuoi calcolare l'importo totale. Se la quantità è superiore a 10, applica uno sconto del 10%, altrimenti non applicare alcuno sconto.
+
+**Formula:**
+```excel
+=IF(B1>10, A1*B1*0.9, A1*B1)
+```
+
+### Esercizio 9:
+Hai un elenco di età nella colonna A. Vuoi determinare se ciascuna persona è un bambino (età inferiore a 13 anni), un adolescente (età tra 13 e 19 anni) o un adulto (età uguale o superiore a 20 anni).
+
+**Formula:**
+```excel
+=IF(A1<13, "Bambino", IF(A1<20, "Adolescente", "Adulto"))
+```
+
+### Esercizio 10:
+Supponiamo che tu abbia un elenco di voti negli esami di matematica e scienze nella colonna A e B rispettivamente. Vuoi assegnare "Promosso" solo se ha superato entrambi gli esami, altrimenti "Non promosso".
+
+**Formula:**
+```excel
+=IF(AND(A1>=50, B1>=50), "Promosso", "Non promosso")
+```
+
 
 
 
