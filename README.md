@@ -1140,7 +1140,11 @@ Restituisci la data odierna nel formato "gg/mese/anno".
 Spero che questi esercizi ti aiutino a praticare e a comprendere meglio le diverse funzioni di Excel! Puoi modificarli o combinare più funzioni per creare esercizi più complessi secondo le tue esigenze
 
 
+__________________________
 
+
+
+### -- 6 Le funzioni di ricerca
 
 
 
