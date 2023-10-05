@@ -1600,6 +1600,248 @@ ________________________________________________________________________________
 **Formula:** `=DGET(A2:C100, "Voto", {"Nome", "Alice"})`
 **Soluzione:** Estrarraà il voto dello studente di nome "Alice" dal database A2:C100.
 
+__________________________
+
+
+## 13 -- Funzioni avanzate di ricerca informazioni
+
+
+Le funzioni avanzate di ricerca in Excel sono estremamente utili per analizzare grandi set di dati e ottenere informazioni specifiche. Ecco alcune delle funzioni di ricerca avanzate più comuni e come utilizzarle:
+
+Queste funzioni di ricerca avanzate sono estremamente versatili e possono essere utilizzate in combinazione per ottenere risultati complessi e dettagliati dalla tua tabella dati in Excel.
+
+
+### 1. **FUNZIONE `CERCA.VERT` (VLOOKUP):**
+La funzione `CERCA.VERT` viene utilizzata per cercare un valore in una colonna specifica e restituire un valore corrispondente dalla stessa riga di un'altra colonna.
+
+**Sintassi:**
+```excel
+=CERCA.VERT(valore_da_cercare, tabella, numero_colonna, [corrispondenza_esatta])
+```
+
+### 2. **FUNZIONE `CERCA.ORIZZ` (HLOOKUP):**
+La funzione `CERCA.ORIZZ` è simile a `CERCA.VERT`, ma cerca il valore in una riga e restituisce un valore dalla stessa colonna di un'altra riga.
+
+**Sintassi:**
+```excel
+=CERCA.ORIZZ(valore_da_cercare, tabella, numero_riga, [corrispondenza_esatta])
+```
+
+### 3. **FUNZIONE `CERCA` (LOOKUP):**
+La funzione `CERCA` cerca un valore in un vettore o in una colonna e restituisce un valore corrispondente dalla stessa posizione in un secondo vettore o colonna.
+
+**Sintassi:**
+```excel
+=CERCA(valore_da_cercare, vettore_cercato, vettore_risultati)
+```
+
+### 4. **FUNZIONE `CERCA.POSIZIONE` (MATCH):**
+La funzione `CERCA.POSIZIONE` restituisce la posizione di un valore in un vettore.
+
+**Sintassi:**
+```excel
+=CERCA.POSIZIONE(valore_da_cercare, vettore_cercato, [tipo_corrispondenza])
+```
+
+### 5. **FUNZIONE `INDICE` (INDEX):**
+La funzione `INDICE` restituisce il valore di una cella in una specifica riga e colonna di un intervallo.
+
+**Sintassi:**
+```excel
+=INDICE(intervallo, numero_riga, numero_colonna)
+```
+
+### 6. **FUNZIONE `CONFRONTA` (MATCH):**
+La funzione `CONFRONTA` cerca un valore in un vettore e restituisce la posizione di corrispondenza.
+
+**Sintassi:**
+```excel
+=CONFRONTA(valore_da_cercare, vettore_cercato, [tipo_corrispondenza])
+```
+
+### 7. **FUNZIONE `CERCA.VERT.ESATTA` (VLOOKUP EXACT):**
+Questa variante della funzione `CERCA.VERT` cerca un valore esatto in una colonna specifica e restituisce un valore corrispondente dalla stessa riga di un'altra colonna.
+
+**Sintassi:**
+```excel
+=CERCA.VERT.ESATTA(valore_da_cercare, tabella, numero_colonna, [corrispondenza_esatta])
+```
+
+### 8. **FUNZIONE `CERCA.POSIZIONE.ESATTA` (MATCH EXACT):**
+Questa variante della funzione `CERCA.POSIZIONE` cerca un valore esatto in un vettore e restituisce la posizione di corrispondenza.
+
+**Sintassi:**
+```excel
+=CERCA.POSIZIONE.ESATTA(valore_da_cercare, vettore_cercato, [tipo_corrispondenza])
+```
+
+### 9. **FUNZIONE `CERCA.RIFERIMENTO` (ADDRESS):**
+La funzione `CERCA.RIFERIMENTO` restituisce il riferimento di cella di una specifica riga e colonna in un foglio di lavoro.
+
+**Sintassi:**
+```excel
+=CERCA.RIFERIMENTO(numero_riga, numero_colonna, [assoluto], [esterno], [foglio])
+```
+
+### 10. **FUNZIONE `CERCA.E` (AND):**
+La funzione `CERCA.E` restituisce VERDADERO se tutte le condizioni specificate sono VERDADERE, altrimenti restituisce FALSO.
+
+**Sintassi:**
+```excel
+=CERCA.E(condizione1, condizione2, ...)
+```
+
+________________
+
+Esecizi :
+
+
+### Esercizio 1:
+**Obiettivo:** Utilizza `CERCA.VERT` per trovare il prezzo di un prodotto in base al suo codice.
+
+**Tabella:**
+```
+| Codice | Prodotto | Prezzo |
+|--------|----------|--------|
+| A123   | Prodotto1| 10     |
+| B456   | Prodotto2| 15     |
+| C789   | Prodotto3| 20     |
+```
+
+**Domanda:** Trova il prezzo del prodotto con codice "B456".
+
+**Formula:** `=CERCA.VERT("B456", A2:C4, 3, FALSO)`
+
+**Risultato:** 15
+
+### Esercizio 2:
+**Obiettivo:** Utilizza `CONFRONTA` per trovare la posizione di un valore specifico in un vettore.
+
+**Vettore:** `5, 10, 15, 20, 25`
+
+**Domanda:** Trova la posizione del valore 15 nel vettore.
+
+**Formula:** `=CONFRONTA(15, A1:A5, 0)`
+
+**Risultato:** 3
+
+### Esercizio 3:
+**Obiettivo:** Utilizza `CERCA.POSIZIONE` per trovare la posizione di un valore specifico in un vettore.
+
+**Vettore:** `A, B, C, D, E`
+
+**Domanda:** Trova la posizione del valore "C" nel vettore.
+
+**Formula:** `=CERCA.POSIZIONE("C", A1:A5, 0)`
+
+**Risultato:** 3
+
+### Esercizio 4:
+**Obiettivo:** Utilizza `INDICE` e `CONFRONTA` per trovare un valore corrispondente a un'altra colonna.
+
+**Tabella:**
+```
+| Nome    | Punteggio |
+|---------|-----------|
+| Alice   | 85        |
+| Bob     | 92        |
+| Charlie | 78        |
+```
+
+**Domanda:** Trova il punteggio di "Bob".
+
+**Formula:** `=INDICE(B2:B4, CONFRONTA("Bob", A2:A4, 0))`
+
+**Risultato:** 92
+
+### Esercizio 5:
+**Obiettivo:** Utilizza `CERCA` per trovare un valore corrispondente in un altro intervallo.
+
+**Tabella:**
+```
+| Prodotto | Prezzo |
+|----------|--------|
+| A        | 10     |
+| B        | 15     |
+| C        | 20     |
+```
+
+**Domanda:** Trova il prezzo del prodotto "C".
+
+**Formula:** `=CERCA("C", A2:A4, B2:B4)`
+
+**Risultato:** 20
+
+### Esercizio 6:
+**Obiettivo:** Utilizza `CERCA.POSIZIONE` e `INDICE` per trovare un valore in base alla sua posizione.
+
+**Vettore:** `100, 200, 300, 400, 500`
+
+**Domanda:** Trova il valore nella terza posizione.
+
+**Formula:** `=INDICE(A1:A5, CERCA.POSIZIONE(3, A1:A5, 0))`
+
+**Risultato:** 300
+
+### Esercizio 7:
+**Obiettivo:** Utilizza `CERCA.VERT.ESATTA` per trovare un valore esatto in una tabella.
+
+**Tabella:**
+```
+| Nome    | Età |
+|---------|-----|
+| Alice   | 25  |
+| Bob     | 30  |
+| Charlie | 22  |
+```
+
+**Domanda:** Trova l'età di "Charlie".
+
+**Formula:** `=CERCA.VERT.ESATTA("Charlie", A2:B4, 2, 0)`
+
+**Risultato:** 22
+
+### Esercizio 8:
+**Obiettivo:** Utilizza `CERCA.E` per verificare se più condizioni sono VERDADERE.
+
+**Tabella:**
+```
+| Nome    | Voto |
+|---------|------|
+| Alice   | 85   |
+| Bob     | 92   |
+| Charlie | 78   |
+```
+
+**Domanda:** Verifica se il voto di "Bob" è superiore a 90 e inferiore a 95.
+
+**Formula:** `=CERCA.E(A2:A4="Bob", B2:B4>90, B2:B4<95)`
+
+**Risultato:** VERDADERO
+
+### Esercizio 9:
+**Obiettivo:** Utilizza `CERCA.RIFERIMENTO` per ottenere il riferimento di cella di un valore specifico.
+
+**Tabella:**
+```
+| Nome    | Cognome | Età |
+|---------|---------|-----|
+| Alice   | Johnson | 25  |
+| Bob     | Smith   | 30  |
+| Charlie | Brown   | 22  |
+```
+
+**Domanda:** Ottieni il riferimento di cella per l'età di "Bob".
+
+**Formula:**
+
+
+
+
+
+
+
+
 
 
 
