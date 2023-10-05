@@ -2,7 +2,7 @@
 
 
 <pre>
-EXCEL intermedio/avanzato
+EXCEL intermedio/avanzato<br>
 Programma:  <br>
 Funzione logiche <br>
 Funzioni di data<br>
