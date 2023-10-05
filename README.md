@@ -584,7 +584,18 @@ Hai un elenco di valori numerici nella colonna A. Vuoi assegnare "Pari" se il nu
 _________________
 
 
+TIPS :
 
+
+Per verificare se tutti i dati in una colonna sono pari in Excel, puoi utilizzare la funzione `MOD` insieme alla funzione `SUMPRODUCT`. Ecco come farlo:
+
+Supponiamo che i dati che desideri verificare siano nella colonna A da A1 ad A1000. La formula per verificare se tutti i dati nella colonna A sono pari sarebbe la seguente:
+
+```excel
+=IF(SUMPRODUCT(MOD(A1:A1000, 2))=0, "Tutti pari", "Non tutti pari")
+```
+
+Questa formula utilizza `MOD(A1:A1000, 2)` per ottenere il resto della divisione di ogni numero nella colonna A per 2. Se tutti i numeri sono pari, la somma di questi resti sarà 0. La funzione `SUMPRODUCT` somma questi resti, e se il risultato è 0, la formula restituirà "Tutti pari", altrimenti "Non tutti pari". Puoi adattare l'intervallo `A1:A1000` nella formula in base alla tua esigenza specifica.
 
 
 
