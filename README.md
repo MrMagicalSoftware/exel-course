@@ -2170,6 +2170,39 @@ Power Pivot è un componente di Microsoft Excel che ti consente di eseguire anal
 
 Power Pivot è una potente e flessibile soluzione per l'analisi dei dati in Excel, permettendoti di eseguire analisi complesse con facilità e di creare report interattivi che forniscono una visione dettagliata delle informazioni aziendali.
 
+__________________________________________________________
+
+
+### 20 Importare dati esterni con Power Query
+
+
+
+
+**Power Query** è una potente funzionalità di **Microsoft Excel** e **Power BI** che consente di importare, trasformare e combinare dati da varie fonti esterne. 
+
+Ricorda che Power Query è anche disponibile in Power BI e in altre applicazioni Microsoft come parte del pacchetto di strumenti di Business Intelligence. Puoi applicare concetti simili per importare e trasformare dati esterni in queste applicazioni.
+
+
+Ecco una guida passo-passo su come importare dati esterni con Power Query in Excel:
+
+1. **Apri Excel**: Avvia Microsoft Excel e apri un nuovo foglio di lavoro o apri un foglio di lavoro esistente nel quale desideri importare i dati esterni.
+
+2. **Scegli l'origine dei dati**: Vai alla scheda "Dati" nella barra del menu superiore. Nella sezione "Ottenere e Trasformare Dati", seleziona "Da Altre Origini" e quindi scegli il tipo di origine dati da cui desideri importare (ad esempio, un file CSV, un database, un sito Web, etc.).
+
+3. **Connessione all'origine dati**: Segui le istruzioni per connetterti all'origine dei dati. Questo può includere l'inserimento di informazioni di accesso, la selezione di tabelle o viste specifiche dal database, o la specifica di URL del sito Web da cui importare i dati.
+
+4. **Trasformazione dei dati con Power Query Editor**: Una volta che i dati sono stati importati, verrai portato nel Power Query Editor. Questo è dove puoi trasformare, pulire e manipolare i dati prima di importarli nel foglio di lavoro di Excel. Puoi filtrare colonne, rimuovere righe, unire tabelle, eseguire calcoli e molto altro utilizzando le varie opzioni disponibili nel Power Query Editor.
+
+5. **Applica le trasformazioni**: Dopo aver eseguito tutte le trasformazioni necessarie, fai clic su "Chiudi & Carica" nella parte superiore del Power Query Editor. Questo applicherà le trasformazioni ai dati e li importerà nel foglio di lavoro di Excel.
+
+6. **Aggiorna i dati (se necessario)**: Se i dati esterni cambiano periodicamente e desideri mantenere i dati nel tuo foglio di lavoro aggiornati, puoi fare clic con il pulsante destro del mouse sulla tabella importata e selezionare "Aggiorna" per importare nuovi dati dalla fonte originale.
+
+
+
+
+
+
+
 
 
 
