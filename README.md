@@ -1957,11 +1957,42 @@ Ci sono filtri semplici e filtri avanzati che puoi applicare ai tuoi dati. Ecco 
 5. **Conferma e Applica:**
    Clicca su "OK" per applicare il filtro avanzato. I dati saranno filtrati in base ai criteri specificati e copiati nell'area designata.
 
+__________________________________________
+
+
+### 16 Uso dei Subtotali
 
 
 
+L'uso dei subtotali in Excel ti consente di calcolare automaticamente le somme, le medie, le conte, o altre funzioni di aggregazione per dati suddivisi in gruppi. Puoi utilizzare la funzione "Subtotale" per fare ciò.
 
 
+### Uso dei Subtotali:
+
+1. **Ordina i Dati:**
+   Prima di applicare i subtotali, assicurati che i tuoi dati siano ordinati in base alla colonna su cui desideri eseguire i subtotali.
+
+2. **Seleziona il Tuo Raggio di Dati:**
+   Seleziona il raggio di celle che contiene i dati che vuoi suddividere in gruppi.
+
+3. **Vai su "Dati" nella Barra del Menu:**
+   Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+4. **Clicca su "Subtotale":**
+   Nella sezione "Strumenti dati", troverai l'opzione "Subtotale". Clicca su di essa.
+
+5. **Configura i Dettagli dei Subtotale:**
+   - **Raggruppa Per:** Seleziona la colonna in base alla quale vuoi suddividere i dati in gruppi.
+   - **Funzione:** Scegli la funzione di aggregazione che desideri applicare (somma, media, conteggio, ecc.).
+   - **Aggiungi subtotale a:** Seleziona la colonna in cui vuoi calcolare i subtotali.
+
+6. **Conferma e Applica:**
+   Clicca su "OK" per applicare i subtotali. Vedrai ora i gruppi di dati e i subtotali calcolati per ciascun gruppo.
+
+7. **Espandi o Nascondi i Gruppi:**
+   Puoi fare clic sulle icone "+" o "-" vicino ai numeri di riga per espandere o nascondere i gruppi e visualizzare o nascondere i subtotali.
+
+Grazie a questa funzione, puoi facilmente ottenere i totali di gruppi specifici senza dover eseguire manualmente le somme o altre operazioni di aggregazione. Puoi anche annidare più livelli di subtotali per creare strutture di report più complesse.
 
 
 
