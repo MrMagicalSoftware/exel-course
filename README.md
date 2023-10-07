@@ -2046,6 +2046,57 @@ Le tabelle pivot sono estremamente flessibili e possono essere adattate alle tue
 
 
 
+_____________________________________________________________________
+
+
+
+
+### 18 Grafici di tabelle Pivot
+
+
+Creare grafici basati su tabelle pivot in Excel è un modo efficace per visualizzare e comunicare chiaramente i dati aggregati. 
+Segui questi passaggi per creare un grafico basato su una tabella pivot:
+Creare un grafico basato su una tabella pivot è una tecnica potente per visualizzare in modo chiaro le tendenze e i modelli nei dati aggregati. Puoi sperimentare con diversi tipi di grafici e personalizzazioni per comunicare efficacemente le informazioni contenute nei dati.
+
+
+### Creazione di un Grafico da una Tabella Pivot:
+
+1. **Crea una Tabella Pivot:**
+   - Seleziona il tuo raggio di dati.
+   - Vai su "Inserisci" nella barra del menu e scegli "Tabella Pivot".
+   - Trascina i campi nelle aree delle righe, delle colonne e dei valori come desideri.
+
+2. **Seleziona la Tabella Pivot:**
+   - Fai clic sulla tua tabella pivot per attivarla.
+
+3. **Crea un Grafico:**
+   - Vai su "Inserisci" nella barra del menu.
+   - Nella sezione "Grafici", seleziona il tipo di grafico che desideri creare (istogramma, linea, torta, ecc.).
+   - Excel creerà automaticamente un grafico basato sulla tua tabella pivot.
+
+4. **Personalizza il Grafico:**
+   - Una volta creato il grafico, puoi personalizzarlo ulteriormente.
+   - Fai clic sui diversi elementi del grafico per modificarne lo stile, il colore e altri aspetti grafici.
+   - Puoi anche fare clic con il pulsante destro del mouse sul grafico per accedere a opzioni avanzate di personalizzazione.
+
+5. **Aggiorna il Grafico con i Cambiamenti nella Tabella Pivot:**
+   - Se la tua tabella pivot viene modificata (aggiornata o cambiata), il grafico si aggiornerà automaticamente quando lo selezioni.
+   - Se hai aggiunto o rimosso campi dalla tabella pivot, puoi fare clic con il pulsante destro del mouse sul grafico e selezionare "Aggiorna" per riflettere queste modifiche nel grafico.
+
+6. **Posiziona il Grafico:**
+   - Puoi spostare il grafico in qualsiasi parte del foglio di lavoro facendo clic e trascinando.
+
+7. **Salva il Tuo Lavoro:**
+   - Assicurati di salvare il tuo lavoro per conservare il grafico insieme alla tabella pivot e ai dati originali.
+
+
+
+
+
+
+
+
+
 
 
 
