@@ -2238,9 +2238,44 @@ Ecco come puoi utilizzare la funzionalità Scenari in Excel:
 Utilizzando la funzionalità Scenari in Excel, puoi esplorare, confrontare e prendere decisioni basate su diverse prospettive senza dover modificare direttamente i dati originali, mantenendo così la coerenza e l'integrità dei tuoi dati.
 
 
+___________________________
 
 
 
+### 22 Strumento Risolutore per risolvere problemi complessi
+
+
+
+
+Lo **Strumento Risolutore (Solver)** in Microsoft Excel è una potente funzionalità che consente di trovare la soluzione ottimale per una varietà di problemi complessi. Utilizza tecniche di ottimizzazione per trovare il miglior risultato possibile in base a un insieme di vincoli e regole specificati dall'utente. Può essere utilizzato per risolvere problemi di programmazione lineare, non lineare, di ricerca del miglior percorso, di assegnazione e molti altri.
+
+Ecco come puoi utilizzare l'Strumento Risolutore in Excel per risolvere problemi complessi:
+
+### **1. Apri Excel:**
+Avvia Microsoft Excel e apri il foglio di lavoro contenente i dati del tuo problema.
+
+### **2. Trova l'Add-In Solver:**
+Se non hai già abilitato l'add-in Solver in Excel, devi farlo. Vai su **"File" -> "Opzioni" -> "Componenti Aggiuntivi"**. Trova "Solver Add-In" nell'elenco e abilitalo.
+
+### **3. Definisci il Tuo Problema:**
+  - **Obiettivo:** Specifica la cella che vuoi ottimizzare (massimizzare o minimizzare).
+  - **Variabili Modificabili:** Definisci le celle che possono cambiare per ottenere l'obiettivo.
+  - **Vincoli:** Aggiungi vincoli alle variabili (es. limite massimo, limite minimo).
+  - **Vincoli di Uguaglianza o Disuguaglianza:** Puoi aggiungere vincoli di uguaglianza o disuguaglianza per raffinare il problema.
+
+### **4. Configura l'Add-In Solver:**
+  - Vai su **"Dati" -> "Analisi" -> "Solver"** per aprire la finestra di dialogo Solver.
+  - Nella finestra di dialogo Solver, inserisci l'obiettivo, le variabili modificabili e i vincoli.
+  - Seleziona se vuoi massimizzare o minimizzare l'obiettivo.
+  - Clicca su **"Risolvi"**.
+
+### **5. Analizza i Risultati:**
+Solver cercherà una soluzione ottimale per il tuo problema in base ai parametri e ai vincoli specificati. Se trova una soluzione, ti mostrerà i valori ottimali per le variabili modificabili e il valore ottimale dell'obiettivo.
+
+### **6. Esamina e Utilizza i Risultati:**
+Esamina i risultati per vedere se soddisfano le tue aspettative. Puoi quindi utilizzare questi risultati per prendere decisioni informate basate sulla soluzione ottimale trovata.
+
+L'uso di Solver richiede una buona comprensione del problema che stai cercando di risolvere, compresi gli obiettivi e i vincoli coinvolti. Con una configurazione corretta, Solver può aiutarti a risolvere una vasta gamma di problemi complessi, rendendolo uno strumento prezioso per l'analisi dei dati e la presa di decisioni.
 
 
 
