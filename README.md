@@ -1863,6 +1863,63 @@ Certamente! Ecco 10 esercizi con le relative soluzioni sulle funzioni avanzate d
 
 
 
+## 14 Ordinamenti semplici e a chiave multipla
+
+
+In Excel, puoi ordinare i dati nel tuo foglio di lavoro in base a uno o più criteri utilizzando l'opzione di ordinamento. 
+quando applichi l'ordinamento a chiave multipla, Excel ordinerà i dati in base al primo campo specificato. In caso di valori uguali nel primo campo, verranno ordinati in base al secondo campo specificato e così via per ulteriori campi di ordinamento. Questo è utile quando hai bisogno di ordinare i dati in base a più criteri per ottenere un risultato più specifico e dettagliato.
+
+Ecco come puoi eseguire ordinamenti semplici e a chiave multipla:
+
+### Ordinamento Semplice:
+
+1. **Seleziona il Raggio di Dati:**
+   Seleziona il raggio di celle che vuoi ordinare.
+
+2. **Vai su "Dati" nella Barra del Menu:**
+   Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+3. **Clicca su "Ordina":**
+   Nella sezione "Strumenti dati", troverai l'opzione "Ordina". Clicca su di essa.
+
+4. **Scelta del Campo e Direzione:**
+   - Seleziona il campo che vuoi utilizzare come criterio di ordinamento.
+   - Scegli se vuoi ordinare in ordine crescente o decrescente.
+
+5. **Conferma e Applica:**
+   Clicca su "OK" per confermare e applicare l'ordinamento.
+
+### Ordinamento a Chiave Multipla:
+
+1. **Seleziona il Raggio di Dati:**
+   Seleziona il raggio di celle che vuoi ordinare.
+
+2. **Vai su "Dati" nella Barra del Menu:**
+   Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+3. **Clicca su "Ordina":**
+   Nella sezione "Strumenti dati", troverai l'opzione "Ordina". Clicca su di essa.
+
+4. **Configura i Criteri di Ordinamento:**
+   - Seleziona il primo campo di ordinamento e la direzione (crescente o decrescente).
+   - Clicca su "Aggiungi livello" per aggiungere un ulteriore campo di ordinamento.
+   - Puoi aggiungere più livelli di ordinamento in base alle tue necessità.
+
+5. **Conferma e Applica:**
+   Clicca su "OK" per confermare e applicare l'ordinamento a chiave multipla.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
