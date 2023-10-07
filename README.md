@@ -2444,5 +2444,47 @@ Ricorda di tenere nota della password utilizzata per proteggere il foglio o la c
 Proteggere fogli e cartelle è utile quando devi condividere un file Excel con altri utenti e vuoi limitare le modifiche che possono essere apportate ai dati. Tuttavia, tieni presente che la protezione può essere rimossa da utenti con accesso alle autorizzazioni necessarie o conoscendo la password di protezione.
 
 
+## 25 Nascondere le formule
+
+
+
+Nascondere le formule in Excel è una pratica comune quando si vuole proteggere la logica dietro i calcoli senza rivelare i dettagli specifici. Puoi nascondere le formule in vari modi:
+
+### Nascondere le Formule utilizzando la Protezione del Foglio:
+
+1. **Proteggi il Foglio Excel:**
+   - Segui i passaggi per proteggere il foglio di lavoro come descritto nella risposta precedente. Puoi proteggere il foglio senza necessariamente proteggere le singole celle.
+   - Assicurati di permettere agli utenti di selezionare le celle nel foglio, ma non di modificare le celle bloccate (dove sono presenti le formule da nascondere).
+
+2. **Nascondi le Righe o Colonne con le Formule:**
+   - Se hai formule in righe o colonne specifiche che vuoi nascondere, puoi nascondere queste righe o colonne.
+   - Seleziona le righe o colonne con le formule.
+   - Fai clic con il pulsante destro del mouse e scegli "Nascondi".
+   - Le righe o colonne con le formule saranno nascoste, rendendo invisibili le formule agli utenti.
+
+### Utilizza il Formato Personalizzato per Visualizzare Solo il Risultato:
+
+1. **Formattazione delle Celle:**
+   - Seleziona la cella con la formula che vuoi nascondere.
+   - Vai su "Home" nella barra del menu.
+
+2. **Crea un Formato Personalizzato:**
+   - Fai clic con il pulsante destro del mouse sulla cella e scegli "Formato Celle".
+   - Nella finestra di dialogo "Formato Celle", vai alla scheda "Numero".
+   - Seleziona "Personalizzato" dalla lista a sinistra.
+
+3. **Configura un Formato Personalizzato:**
+   - Nella casella "Tipo", puoi inserire una formattazione personalizzata che visualizzerà solo il risultato della formula, ma non la formula stessa. Ad esempio, puoi usare `0` come formato personalizzato per visualizzare solo numeri interi.
+
+4. **Conferma e Applica:**
+   - Clicca su "OK" per applicare il formato personalizzato alla cella. La cella mostrerà solo il risultato della formula, nascondendo la formula stessa.
+
+Ricorda che anche se le formule possono essere nascoste, chiunque abbia accesso e autorizzazioni sufficienti può visualizzare o modificare le formule. La protezione dovrebbe sempre essere combinata con l'adeguato controllo degli accessi per garantire la sicurezza dei dati.
+
+
+
+
+
+
 
 
