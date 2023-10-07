@@ -1995,6 +1995,63 @@ L'uso dei subtotali in Excel ti consente di calcolare automaticamente le somme, 
 Grazie a questa funzione, puoi facilmente ottenere i totali di gruppi specifici senza dover eseguire manualmente le somme o altre operazioni di aggregazione. Puoi anche annidare più livelli di subtotali per creare strutture di report più complesse.
 
 
+__________________________________________________________________________________________
+
+
+### 17 - Analisi dati con le Tabelle Pivot
+
+
+
+
+Le tabelle pivot in Excel sono potenti strumenti di analisi dati che ti consentono di riepilogare, analizzare, esplorare e presentare grandi quantità di dati in modo chiaro e conciso. 
+
+### Creazione di una Tabella Pivot:
+
+1. **Seleziona il Tuo Raggio di Dati:**
+   Seleziona il raggio di celle che contiene i dati che desideri analizzare.
+
+2. **Vai su "Inserisci" nella Barra del Menu:**
+   Clicca sulla scheda "Inserisci" nella barra del menu di Excel.
+
+3. **Clicca su "Tabella Pivot":**
+   Nella sezione "Tabelle", troverai l'opzione "Tabella Pivot". Clicca su di essa.
+
+4. **Configura la Tabella Pivot:**
+   - **Trascina Campi nelle Aree della Tabella Pivot:**
+     - **Campi delle Righe:** Trascina il campo che desideri utilizzare per la suddivisione delle righe.
+     - **Campi delle Colonne:** Trascina il campo che desideri utilizzare per la suddivisione delle colonne.
+     - **Valori:** Trascina il campo che desideri sommare, contare, fare la media o su cui vuoi eseguire altre operazioni di aggregazione.
+
+5. **Personalizza l'Analisi:**
+   - Puoi trascinare più campi nelle diverse aree della tabella pivot per ottenere un'analisi più dettagliata.
+   - Puoi anche ordinare, raggruppare, filtrare e formattare i dati nella tabella pivot secondo le tue esigenze.
+
+6. **Risultato Finale:**
+   Excel creerà la tabella pivot con i dati aggregati in base alle tue specifiche.
+
+### Aggiornamento e Modifica di una Tabella Pivot:
+
+1. **Modifica Campi e Aggiorna i Dati:**
+   - Per aggiungere o rimuovere campi, fai clic con il pulsante destro del mouse sulla tabella pivot e scegli "Modifica Tabella Pivot".
+   - Per aggiornare i dati, fai clic con il pulsante destro del mouse sulla tabella pivot e scegli "Aggiorna".
+
+2. **Modifica le Operazioni di Aggregazione:**
+   - Per modificare l'operazione di aggregazione (somma, media, ecc.), fai clic su una cella nella colonna dei dati nella tabella pivot e scegli "Mostra Dettagli Campo".
+   - Qui puoi cambiare l'operazione di aggregazione e fare altre personalizzazioni.
+
+3. **Personalizzazione Grafica:**
+   - Puoi anche personalizzare la grafica della tabella pivot selezionando uno stile di tabella pivot o modificando manualmente la formattazione.
+
+Le tabelle pivot sono estremamente flessibili e possono essere adattate alle tue esigenze specifiche di analisi dati. Ti permettono di esplorare i dati in modo dinamico e di ottenere insights importanti senza la necessità di creare formule complesse.
+
+
+
+
+
+
+
+
+
 
 
 
