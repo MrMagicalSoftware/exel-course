@@ -2403,10 +2403,45 @@ Ricorda che puoi aggiornare i dati consolidati in qualsiasi momento andando nuov
 
 
 
+____________________________________________________
 
 
+## 24 Proteggere fogli e cartelle 
 
 
+Proteggere fogli e cartelle in Excel è una pratica comune per impedire la modifica accidentale o non autorizzata dei dati. Puoi proteggere fogli e cartelle utilizzando diverse opzioni di protezione disponibili in Excel. Ecco come farlo:
+
+### Proteggere un Foglio:
+
+1. **Vai su "Revisione" nella Barra del Menu:**
+   - Clicca sulla scheda "Revisione" nella barra del menu di Excel.
+
+2. **Seleziona "Proteggi Foglio":**
+   - Nella sezione "Cambiamenti", seleziona "Proteggi Foglio".
+
+3. **Configura le Opzioni di Protezione:**
+   - Nella finestra di dialogo che appare, puoi impostare una password per proteggere il foglio. Puoi anche specificare quali azioni gli utenti possono compiere, come selezionare celle, inserire dati, eliminare righe, ecc.
+
+4. **Conferma e Applica:**
+   - Dopo aver configurato le opzioni di protezione, clicca su "OK" e inserisci la password se richiesto. Il foglio sarà ora protetto.
+
+### Proteggere una Cartella:
+
+1. **Vai su "Revisione" nella Barra del Menu:**
+   - Clicca sulla scheda "Revisione" nella barra del menu di Excel.
+
+2. **Seleziona "Proteggi Cartella":**
+   - Nella sezione "Cambiamenti", seleziona "Proteggi Cartella".
+
+3. **Configura le Opzioni di Protezione:**
+   - Nella finestra di dialogo che appare, puoi impostare una password per proteggere la cartella. Puoi anche specificare quali azioni gli utenti possono compiere, come inserire nuovi fogli, eliminare fogli esistenti, ecc.
+
+4. **Conferma e Applica:**
+   - Dopo aver configurato le opzioni di protezione, clicca su "OK" e inserisci la password se richiesto. La cartella sarà ora protetta.
+
+Ricorda di tenere nota della password utilizzata per proteggere il foglio o la cartella, perché senza di essa non sarà possibile rimuovere la protezione in seguito.
+
+Proteggere fogli e cartelle è utile quando devi condividere un file Excel con altri utenti e vuoi limitare le modifiche che possono essere apportate ai dati. Tuttavia, tieni presente che la protezione può essere rimossa da utenti con accesso alle autorizzazioni necessarie o conoscendo la password di protezione.
 
 
 
