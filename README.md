@@ -2098,8 +2098,77 @@ __________________________________________________________
 ### 19 Power Pivot: analisi di business intelligence
 
 
+Business Intelligence :
 
 
+La **Business Intelligence (BI)** è un insieme di processi, tecnologie e strumenti che aiutano le aziende a raccogliere, integrare, analizzare e presentare informazioni aziendali. L'obiettivo principale della Business Intelligence è aiutare le aziende a prendere decisioni informate basate sui dati. Ecco alcuni aspetti chiave della Business Intelligence:
+
+1. **Raccolta dei dati**: La BI coinvolge la raccolta di dati provenienti da diverse fonti, come database aziendali, file di Excel, sistemi CRM (Customer Relationship Management), sistemi ERP (Enterprise Resource Planning) e altre fonti di dati.
+
+2. **Integrazione dei dati**: Diverse fonti di dati possono avere formati diversi. La BI integra questi dati in un'unica vista coerente, facilitando l'analisi e la generazione di report.
+
+3. **Analisi dei dati**: La BI utilizza tecniche analitiche per esaminare i dati e scoprire modelli, tendenze e informazioni significative. Ciò può includere l'uso di algoritmi complessi per l'analisi predittiva o l'analisi dei dati storici per identificare modelli comportamentali.
+
+4. **Reporting e dashboard**: La BI offre strumenti per creare report interattivi e dashboard che visualizzano i dati in modo chiaro e comprensibile. Questi report possono essere personalizzati per soddisfare le esigenze specifiche dei decisori aziendali.
+
+5. **Pianificazione e previsione**: La BI consente alle aziende di pianificare e fare previsioni basate sui dati storici e sulle tendenze identificate durante l'analisi dei dati.
+
+6. **Supporto decisionale**: La BI fornisce informazioni critiche ai dirigenti e ai manager per prendere decisioni aziendali informate. Questo può includere decisioni su strategie di marketing, gestione delle risorse umane, ottimizzazione delle operazioni e altro ancora.
+
+7. **Monitoraggio delle prestazioni**: La BI consente di monitorare le prestazioni aziendali in tempo reale attraverso indicatori chiave di performance (KPI) e avvisi automatizzati, consentendo alle aziende di reagire rapidamente ai cambiamenti del mercato o ai problemi operativi.
+
+In sintesi, la Business Intelligence è fondamentale per le aziende moderne che desiderano sfruttare i propri dati per migliorare l'efficienza operativa, prendere decisioni strategiche informate e mantenere un vantaggio competitivo nel mercato.
+
+
+
+
+
+
+Power Pivot è un componente di Microsoft Excel che ti consente di eseguire analisi di business intelligence avanzate, manipolare grandi volumi di dati, creare relazioni complesse e generare report interattivi. Ecco come iniziare con Power Pivot per eseguire analisi di business intelligence:
+
+### Abilitazione di Power Pivot in Excel:
+
+1. **Verifica la Versione di Excel:**
+   Assicurati di utilizzare una versione di Excel che supporta Power Pivot. Non tutte le versioni di Excel includono questa funzionalità.
+
+2. **Abilita Power Pivot:**
+   - Vai su "File" nella barra del menu.
+   - Seleziona "Opzioni".
+   - Nella finestra di dialogo che appare, seleziona "Complementi".
+   - Fai clic su "Analisi dati di Microsoft Office" e quindi su "OK".
+   - Dopo aver abilitato Power Pivot, vedrai una nuova scheda chiamata "Power Pivot" nella barra del menu di Excel.
+
+### Importazione e Manipolazione dei Dati con Power Pivot:
+
+1. **Importa Dati:**
+   - Vai alla scheda "Power Pivot" e seleziona "Dal Altre Origini Dati" per importare dati da diverse fonti come database, Excel, dati online, etc.
+   - Segui le istruzioni per collegare o importare i dati nel Power Pivot.
+
+2. **Creazione di Relazioni:**
+   - Dopo l'importazione dei dati, puoi creare relazioni tra le tabelle nel modello Power Pivot. Clicca su "Diagramma" nella scheda "Power Pivot" per visualizzare e creare relazioni tra le tabelle.
+
+3. **Calcolare Campi e Misure DAX:**
+   - Utilizza le formule DAX (Data Analysis Expressions) per creare nuovi campi calcolati e misure basate sui dati esistenti.
+   - Le formule DAX ti permettono di eseguire operazioni complesse sui dati, simili alle formule di Excel, ma progettate per l'analisi dei dati in Power Pivot.
+
+### Creazione di Report Interattivi con Power Pivot:
+
+1. **Creazione di Tabelle Pivot Dinamiche:**
+   - Vai alla scheda "Power Pivot" e seleziona "Crea Tabelle Pivot Dinamiche".
+   - Utilizza campi e misure DAX nel Tabelle Pivot Dinamiche per creare report interattivi.
+
+2. **Utilizzo di Segmentazioni Dati:**
+   - Crea segmentazioni dati per filtrare i dati in modo interattivo nel Tabelle Pivot Dinamiche.
+   - Fai clic sulla tua tabella pivot, vai alla scheda "Analizza" e seleziona "Segmentazione dati" per creare segmentazioni basate sui campi nel tuo modello Power Pivot.
+
+3. **Creazione di Grafici Dinamici:**
+   - Crea grafici dinamici basati sui dati nel tuo modello Power Pivot per visualizzare i risultati in modo più accattivante e interattivo.
+   - Utilizza la scheda "Inserisci" e seleziona il tipo di grafico desiderato per iniziare a creare grafici dinamici.
+
+4. **Pubblicazione dei Report:**
+   - Puoi condividere i tuoi report interattivi caricando i dati e i grafici su servizi come SharePoint o Power BI per una visualizzazione più ampia e una collaborazione in tempo reale.
+
+Power Pivot è una potente e flessibile soluzione per l'analisi dei dati in Excel, permettendoti di eseguire analisi complesse con facilità e di creare report interattivi che forniscono una visione dettagliata delle informazioni aziendali.
 
 
 
