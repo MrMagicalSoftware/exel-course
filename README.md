@@ -2198,12 +2198,44 @@ Ecco una guida passo-passo su come importare dati esterni con Power Query in Exc
 6. **Aggiorna i dati (se necessario)**: Se i dati esterni cambiano periodicamente e desideri mantenere i dati nel tuo foglio di lavoro aggiornati, puoi fare clic con il pulsante destro del mouse sulla tabella importata e selezionare "Aggiorna" per importare nuovi dati dalla fonte originale.
 
 
+_____________________________________
+
+
+
+### 21 Funzionalità Scenari per confrontare ed analizzare i dati
 
 
 
 
+Nella context dell'analisi dei dati, gli "Scenari" in Excel sono una funzionalità che consente agli utenti di creare e confrontare diversi insiemi di dati in un foglio di lavoro senza dover modificare direttamente i dati originali. Questa funzione è utile quando vuoi esplorare diverse situazioni o scenari senza dover creare duplicati del foglio di lavoro o modificare manualmente i dati originali.
 
+Ecco come puoi utilizzare la funzionalità Scenari in Excel:
 
+### Creazione di Scenari:
+
+1. **Prepara i Dati**: Assicurati di avere tutti i dati necessari nel tuo foglio di lavoro.
+
+2. **Scegli la Funzione Scenari**: Vai alla scheda "Dati" nella barra del menu superiore. Nella sezione "Strumenti Dati", seleziona "Scenari".
+
+3. **Crea un Nuovo Scenario**: Nella finestra di dialogo degli Scenari, puoi creare un nuovo scenario inserendo un nome descrittivo. Seleziona le celle che vuoi includere nello scenario. Puoi creare più scenari con combinazioni diverse di dati.
+
+4. **Modifica gli Scenari**: Puoi modificare gli scenari esistenti o crearne di nuovi. Ad esempio, potresti creare uno scenario con una previsione ottimistica e un altro con una previsione pessimistica.
+
+### Confronto degli Scenari:
+
+1. **Visualizzazione degli Scenari**: Dopo aver creato gli scenari, puoi passare da uno all'altro per vedere come cambiano i risultati basati sulle diverse situazioni.
+
+2. **Risultati degli Scenari**: Puoi utilizzare formule nei fogli di lavoro per calcolare risultati basati sugli scenari. Ad esempio, potresti avere una cella che mostra il totale delle vendite in base allo scenario selezionato.
+
+3. **Analisi e Decisioni**: Gli scenari ti consentono di analizzare come le variazioni nei dati influenzano i risultati. Questo è particolarmente utile per prendere decisioni informate in base a diverse situazioni previste.
+
+### Salvataggio e Gestione degli Scenari:
+
+1. **Salvataggio degli Scenari**: Puoi salvare gli scenari per poterli recuperare in futuro. Questo è utile se stai lavorando su un progetto a lungo termine o se devi condividere gli scenari con altri utenti.
+
+2. **Modifica e Eliminazione degli Scenari**: Puoi modificare o eliminare gli scenari in qualsiasi momento in modo da poter riflettere eventuali cambiamenti nei dati o nelle previsioni.
+
+Utilizzando la funzionalità Scenari in Excel, puoi esplorare, confrontare e prendere decisioni basate su diverse prospettive senza dover modificare direttamente i dati originali, mantenendo così la coerenza e l'integrità dei tuoi dati.
 
 
 
