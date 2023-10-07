@@ -1911,6 +1911,51 @@ Ecco come puoi eseguire ordinamenti semplici e a chiave multipla:
 
 
 
+###  15  Selezione mediante i filtri (semplici ed avanzati)
+
+L'utilizzo dei filtri in Excel consente di selezionare, visualizzare e analizzare i dati in modo specifico. 
+
+I filtri avanzati sono utili quando hai bisogno di criteri di filtraggio più complessi e desideri anche copiare i dati filtrati in un'altra posizione nel foglio di lavoro. Ricorda che sia per i filtri semplici che per quelli avanzati, puoi rimuovere il filtro in qualsiasi momento cliccando nuovamente su "Filtro" nella scheda "Dati" e selezionando "Nessun Filtro".
+
+Ci sono filtri semplici e filtri avanzati che puoi applicare ai tuoi dati. Ecco come puoi farlo:
+
+### Filtri Semplici:
+
+1. **Seleziona il Tuo Raggio di Dati:**
+   Seleziona il raggio di celle che vuoi filtrare.
+
+2. **Vai su "Dati" nella Barra del Menu:**
+   Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+3. **Clicca su "Filtro":**
+   Nella sezione "Strumenti dati", troverai l'opzione "Filtro". Clicca su di essa.
+
+4. **Scegli le Opzioni di Filtraggio:**
+   - Per filtri basici, puoi selezionare i valori specifici che desideri visualizzare.
+   - Per i filtri numerici, puoi impostare intervalli di valori.
+   - Per i filtri di testo, puoi cercare testo specifico.
+
+5. **Conferma e Applica:**
+   Clicca su "OK" per applicare il filtro. I dati saranno filtrati in base alle tue selezioni.
+
+### Filtri Avanzati:
+
+1. **Seleziona il Tuo Raggio di Dati:**
+   Seleziona il raggio di celle che vuoi filtrare.
+
+2. **Vai su "Dati" nella Barra del Menu:**
+   Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+3. **Clicca su "Filtro Avanzato":**
+   Nella sezione "Strumenti dati", troverai l'opzione "Filtro Avanzato". Clicca su di essa.
+
+4. **Configura i Criteri di Filtraggio:**
+   - Specifica l'area del raggio dati che desideri filtrare.
+   - Specifica l'area in cui vuoi che Excel copi i dati filtrati.
+   - Inserisci i criteri di filtraggio in base ai quali vuoi filtrare i dati.
+
+5. **Conferma e Applica:**
+   Clicca su "OK" per applicare il filtro avanzato. I dati saranno filtrati in base ai criteri specificati e copiati nell'area designata.
 
 
 
