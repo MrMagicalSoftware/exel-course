@@ -2365,4 +2365,49 @@ Massimizzare il profitto totale.
 Questo esempio dimostra come utilizzare Solver per massimizzare il profitto in base a vincoli di risorse (nel nostro caso, le ore di lavorazione disponibili) e aiuta a prendere decisioni informate sulla produzione ottimale dei prodotti.
 
 
+___________________________
+
+
+##  23 Consolidamento dei dati (Consolida)
+
+La funzione "Consolida" in Excel ti permette di combinare dati da diverse posizioni o fogli di lavoro in un unico riepilogo. 
+Questo è utile quando hai dati separati in fogli di lavoro diversi o in posizioni diverse e desideri crearne un unico riepilogo. 
+Ecco come puoi utilizzare la funzione "Consolida" in Excel:
+
+### Consolidamento dei Dati con la Funzione "Consolida":
+
+1. **Organizza i Dati di Origine:**
+   - Assicurati che i dati di origine siano organizzati in modo coerente. Ad esempio, se hai dati in fogli di lavoro diversi, assicurati che le colonne abbiano gli stessi nomi e siano disposte nello stesso ordine.
+
+2. **Crea un Foglio di Lavoro di Destinazione:**
+   - Crea un nuovo foglio di lavoro o seleziona una posizione in un foglio di lavoro esistente dove desideri che siano consolidati i dati.
+
+3. **Vai su "Dati" nella Barra del Menu:**
+   - Clicca sulla scheda "Dati" nella barra del menu di Excel.
+
+4. **Clicca su "Consolida":**
+   - Nella sezione "Strumenti dati", troverai l'opzione "Consolida". Clicca su di essa.
+
+5. **Configura le Opzioni di Consolidamento:**
+   - Nella finestra di dialogo "Consolida", inserisci le informazioni seguenti:
+     - **Riferimento:** Seleziona la posizione dei dati di origine. Puoi selezionare più posizioni se hai dati in diversi fogli di lavoro o intervalli.
+     - **Posizione:** Indica la posizione dove desideri che siano consolidati i dati.
+     - **Usa etichette di riga/columnna:** Se i tuoi dati di origine contengono etichette di riga o colonna, assicurati di selezionare questa opzione per includerle nella consolidazione.
+
+6. **Conferma e Applica:**
+   - Clicca su "OK" per confermare e applicare il consolidamento.
+
+Excel combinerà ora i dati da diverse posizioni o fogli di lavoro nella posizione di destinazione specificata. Puoi scegliere se vuoi sommare, fare la media, contare o utilizzare altre funzioni di aggregazione per i dati consolidati.
+
+Ricorda che puoi aggiornare i dati consolidati in qualsiasi momento andando nuovamente su "Consolida" e apportando le modifiche necessarie. La funzione "Consolida" è utile per raccogliere dati da diverse fonti e crearne un unico riepilogo per ulteriori analisi.
+
+
+
+
+
+
+
+
+
+
 
