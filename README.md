@@ -2327,8 +2327,42 @@ Questo è un esempio semplice, ma illustra come utilizzare Solver per risolvere 
 _____________
 
 
+ALTRO ESEMPIO :
 
 
+**Problema:**
+Supponiamo di avere un'azienda che produce due tipi di prodotti: A e B. Il prodotto A richiede 2 ore di lavorazione e il prodotto B richiede 3 ore. L'azienda ha a disposizione 240 ore di lavorazione al mese. Il profitto per ogni unità di prodotto A venduto è di 100 euro, mentre il profitto per ogni unità di prodotto B venduto è di 150 euro. L'obiettivo è massimizzare il profitto mensile.
+
+**Obiettivo:**
+Massimizzare il profitto totale.
+
+**Dati:**
+- Lavorazione richiesta per prodotto A: 2 ore
+- Lavorazione richiesta per prodotto B: 3 ore
+- Ore di lavorazione disponibili al mese: 240 ore
+- Profitto per unità di prodotto A: 100 euro
+- Profitto per unità di prodotto B: 150 euro
+
+**Passaggi per Utilizzare Solver:**
+
+1. **Prepara il Foglio di Lavoro:**
+   - Crea una tabella in Excel con le colonne "Prodotto A" e "Prodotto B".
+   - Inserisci le formule per calcolare il tempo totale di lavorazione per i prodotti A e B in base alla quantità prodotta.
+   - Inserisci una cella per calcolare il profitto totale basato sulle quantità di prodotti A e B venduti.
+
+2. **Abilita Solver:**
+   - Vai su **"Dati" -> "Analisi" -> "Solver"**.
+   - Nella finestra di dialogo Solver, imposta la cella del profitto totale come "Obiettivo da massimizzare".
+   - Specifica le celle delle quantità di prodotti A e B come "Variabili Modificabili".
+   - Aggiungi il vincolo che il tempo totale di lavorazione (somma delle ore per i prodotti A e B) non deve superare 240 ore al mese.
+
+3. **Esegui Solver:**
+   - Clicca su **"Risolvi"** nella finestra di dialogo Solver.
+
+4. **Esamina i Risultati:**
+   - Solver troverà le quantità ottimali di prodotti A e B da produrre per massimizzare il profitto totale, rispettando il vincolo delle ore di lavorazione disponibili.
+
+Questo esempio dimostra come utilizzare Solver per massimizzare il profitto in base a vincoli di risorse (nel nostro caso, le ore di lavorazione disponibili) e aiuta a prendere decisioni informate sulla produzione ottimale dei prodotti.
 
 
 
