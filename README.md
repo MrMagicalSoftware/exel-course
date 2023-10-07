@@ -2091,6 +2091,16 @@ Creare un grafico basato su una tabella pivot è una tecnica potente per visuali
 
 
 
+__________________________________________________________
+
+
+
+### 19 Power Pivot: analisi di business intelligence
+
+
+
+
+
 
 
 
