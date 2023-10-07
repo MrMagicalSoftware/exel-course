@@ -2279,7 +2279,52 @@ L'uso di Solver richiede una buona comprensione del problema che stai cercando d
 
 
 
+Esempio su come utilizzare Solver in Excel per risolvere un problema di ottimizzazione semplice.
 
+**Problema:**
+Immagina di gestire un negozio di articoli per ufficio e devi decidere quanti penne e quanti quaderni ordinare per massimizzare il profitto, considerando i costi di acquisto e i vincoli di budget.
+
+**Dati:**
+- Il costo di una penna è di 1 euro.
+- Il costo di un quaderno è di 2 euro.
+- Hai un budget di 20 euro per gli acquisti.
+- Puoi ordinare al massimo 15 penne.
+- Puoi ordinare al massimo 10 quaderni.
+- Il profitto per ogni penna venduta è di 3 euro.
+- Il profitto per ogni quaderno venduto è di 5 euro.
+
+**Obiettivo:**
+Massimizzare il profitto totale.
+
+**Passaggi per Utilizzare Solver:**
+
+1. **Prepara il Foglio di Lavoro:**
+   - Crea una tabella in Excel con le colonne "Penne" e "Quaderni".
+   - Inserisci le formule per calcolare il costo totale delle penne e dei quaderni in base alla quantità ordinata.
+   - Inserisci una cella per calcolare il profitto totale basato sulle quantità di penne e quaderni vendute.
+
+2. **Abilita Solver:**
+   - Vai su **"Dati" -> "Analisi" -> "Solver"**.
+   - Nella finestra di dialogo Solver, imposta la cella del profitto totale come "Obiettivo da massimizzare".
+   - Specifica le celle delle penne e dei quaderni come "Variabili Modificabili".
+   - Aggiungi i seguenti vincoli: 
+     - La somma delle penne deve essere inferiore o uguale a 15 (il massimo che puoi ordinare).
+     - La somma dei quaderni deve essere inferiore o uguale a 10 (il massimo che puoi ordinare).
+     - Il costo totale degli acquisti (penne + quaderni) non deve superare 20 euro (il tuo budget).
+
+3. **Esegui Solver:**
+   - Clicca su **"Risolvi"** nella finestra di dialogo Solver.
+
+4. **Esamina i Risultati:**
+   - Solver troverà le quantità ottimali di penne e quaderni da ordinare per massimizzare il profitto totale, rispettando i vincoli dati.
+
+Questo è un esempio semplice, ma illustra come utilizzare Solver per risolvere problemi di ottimizzazione. Puoi applicare lo stesso concetto per problemi più complessi, includendo più variabili e vincoli, per prendere decisioni basate su dati ottimizzati.
+
+
+
+
+
+_____________
 
 
 
