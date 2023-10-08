@@ -1512,6 +1512,37 @@ Estrae un singolo valore da un database basato su criteri specifici.
 =DGET(database, campo, criteri)
 ```
 
+Supponiamo di avere un foglio Excel con i seguenti dati in un foglio chiamato "Dati":
+
+| Nome | Cognome | Età | Sesso |
+|---------|----------|-----|-------|
+| Mario | Rossi | 25 | M |
+| Laura | Verdi | 30 | F |
+| Giuseppe| Bianchi | 40 | M |
+| Giulia | Neri | 35 | F |
+| Luigi | Gialli | 45 | M |
+
+Ora supponiamo di voler utilizzare la funzione DB.VALORI per calcolare il valore presente nella colonna "Età" per il nome "Giuseppe". La formula potrebbe essere la seguente:
+
+=DB.VALORI(A2:D6;C2:C6;"Giuseppe")
+
+In questo caso, stiamo utilizzando il range A2:D6 come database, con la colonna "Nome" come criterio di ricerca. Stiamo cercando il valore nell colonna "Età" corrispondente al nome "Giuseppe".
+
+Il risultato della formula sarebbe il valore "40", che rappresenta l'età di Giuseppe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 2. **FUNZIONE `SOMMA.DATI` (DSUM):**
 Calcola la somma di valori in un campo di un database basato su criteri specifici.
 
