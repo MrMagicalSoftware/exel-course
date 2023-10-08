@@ -149,6 +149,7 @@ Hai un elenco di punteggi degli studenti nella colonna A. Se il punteggio è mag
 
 ### Esercizio 7:
 Hai un elenco di numeri nella colonna A. Se il numero è pari, restituisci "Pari", altrimenti restituisci "Dispari".
+funzione resto
 
 **Formula:**
 ```excel
