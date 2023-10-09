@@ -2276,7 +2276,9 @@ ___________________________
 
 ### 22 Strumento Risolutore per risolvere problemi complessi
 
+How to install :
 
+https://www.youtube.com/watch?v=Vy3Ub9eu-is
 
 
 Lo **Strumento Risolutore (Solver)** in Microsoft Excel è una potente funzionalità che consente di trovare la soluzione ottimale per una varietà di problemi complessi. Utilizza tecniche di ottimizzazione per trovare il miglior risultato possibile in base a un insieme di vincoli e regole specificati dall'utente. Può essere utilizzato per risolvere problemi di programmazione lineare, non lineare, di ricerca del miglior percorso, di assegnazione e molti altri.
