@@ -2769,6 +2769,55 @@ Sub ProvaRange()
 End Sub
 ```
 
+______________________________________________________________________________________________
+
+
+Sub postiCinema()
+
+    Dim numeroEstratto As Integer
+    
+    Dim interv As Range
+    Dim cella As Variant
+    
+    
+    Set interv = Range("H3:M9")
+    
+ 
+    
+    For Each cella In interv
+    
+       
+    
+        numeroEstratto = WorksheetFunction.RandBetween(0, 1)
+        
+        If numeroEstratto = 0 Then
+            cella.Interior.Color = RGB(255, 0, 0)
+        Else
+            cella.Interior.Color = RGB(0, 255, 0)
+        End If
+    
+    Next cella
+    
+
+
+
+
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
