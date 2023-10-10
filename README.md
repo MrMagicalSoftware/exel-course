@@ -37,6 +37,8 @@ Docs :
 https://www.tutorialspoint.com/vba/index.htm
 https://www.javatpoint.com/vba
 
+https://learn.microsoft.com/it-it/dotnet/visual-basic/language-reference/operators/comparison-operators
+
 ## Funzione logiche 
 
 
