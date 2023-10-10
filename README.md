@@ -35,6 +35,7 @@
 
 Docs :
 https://www.tutorialspoint.com/vba/index.htm
+https://www.javatpoint.com/vba
 
 ## Funzione logiche 
 
