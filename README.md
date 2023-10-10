@@ -33,6 +33,8 @@
 • 27 Cenni al linguaggio VBA per modificare una macro registrata in precedenza
 </pre>
 
+Docs :
+https://www.tutorialspoint.com/vba/index.htm
 
 ## Funzione logiche 
 
