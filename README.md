@@ -2738,6 +2738,46 @@ End Sub
 In questo esempio, `SommaNumeri` è una funzione che prende due argomenti e restituisce la somma di questi due numeri. La funzione viene chiamata nella procedura `Sub` chiamata `EseguiCalcolo`.
 
 
+_______________________________________________________________________________
+
+```vba
+Sub ProvaRange()
+
+
+    'Range("A1:A5").Value = 2
+    
+   
+    Dim interavallo As Range
+    Dim cella As Range
+    
+    
+    Set interavallo = Range("A1:A5")
+    
+    
+    MsgBox ("SONO QUI")
+    
+    For Each cella In interavallo
+        
+        MsgBox (cella.Value)
+    
+    Next cella
+    
+   
+    
+
+
+End Sub
+```vba
+
+
+
+
+
+
+
+
+
+
 
 
 
