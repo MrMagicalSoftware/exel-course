@@ -21,6 +21,11 @@ https://www.tutorialspoint.com/vba/vba_variables.htm
 ![Screenshot 2025-04-16 alle 14 55 48](https://github.com/user-attachments/assets/047f17e8-2779-4e05-833b-b509950b79ff)
 
 
+![Screenshot 2025-04-16 alle 15 17 53](https://github.com/user-attachments/assets/811e4af9-44fa-496b-8d97-1bcf2659bad4)
+
+
+
+
 # TIPI DI DATI :
 
 
@@ -171,7 +176,7 @@ _______________________
 # ISTRUZIONI DI CICLI 
 
 
-
+_______
 
 
 
