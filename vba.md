@@ -38,7 +38,14 @@ Per gli utenti windows :
 
 
 
-
+COME ATTIVARE LE MACRO IN EXCEL
+✅ 1. Attiva la scheda "Sviluppo"
+Se non è già visibile:
+Vai su File > Opzioni
+Clicca su Personalizzazione barra multifunzione
+A destra, spunta la voce “Sviluppo” (Developer)
+Clicca su OK
+Ora vedrai la scheda "Sviluppo" nella barra in alto di Excel.
 
 
 
