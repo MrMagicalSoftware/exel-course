@@ -53,6 +53,107 @@ _______________________
 11. **Array**: Un tipo di dato che può contenere più valori dello stesso tipo. Gli array possono essere unidimensionali o multidimensionali.
 
 
+
+
+
+### 1. **Integer**
+```vba
+Dim contatore As Integer
+contatore = 10
+MsgBox "Il valore del contatore è: " & contatore
+```
+
+### 2. **Long**
+```vba
+Dim grandeNumero As Long
+grandeNumero = 1234567890
+MsgBox "Il grande numero è: " & grandeNumero
+```
+
+### 3. **Single**
+```vba
+Dim valoreDecimale As Single
+valoreDecimale = 3.14
+MsgBox "Il valore decimale è: " & valoreDecimale
+```
+
+### 4. **Double**
+```vba
+Dim numeroPreciso As Double
+numeroPreciso = 3.14159265358979
+MsgBox "Il numero preciso è: " & numeroPreciso
+```
+
+### 5. **Currency**
+```vba
+Dim prezzo As Currency
+prezzo = 19.99
+MsgBox "Il prezzo è: " & prezzo & " €"
+```
+
+### 6. **String**
+```vba
+Dim nome As String
+nome = "Mario Rossi"
+MsgBox "Il nome è: " & nome
+```
+
+### 7. **Boolean**
+```vba
+Dim attivo As Boolean
+attivo = True
+If attivo Then
+    MsgBox "L'utente è attivo."
+Else
+    MsgBox "L'utente non è attivo."
+End If
+```
+
+### 8. **Date**
+```vba
+Dim dataAttuale As Date
+dataAttuale = Now
+MsgBox "La data e l'ora attuale sono: " & dataAttuale
+```
+
+### 9. **Variant**
+```vba
+Dim variabile As Variant
+variabile = "Testo"
+MsgBox "La variabile contiene: " & variabile
+variabile = 123
+MsgBox "Ora la variabile contiene: " & variabile
+```
+
+### 10. **Object**
+```vba
+Dim foglio As Worksheet
+Set foglio = ThisWorkbook.Sheets("Foglio1")
+MsgBox "Il nome del foglio è: " & foglio.Name
+```
+
+### 11. **Array**
+```vba
+Dim numeri(1 To 5) As Integer
+numeri(1) = 10
+numeri(2) = 20
+numeri(3) = 30
+numeri(4) = 40
+numeri(5) = 50
+
+Dim i As Integer
+Dim risultato As String
+risultato = "I numeri sono: "
+For i = 1 To 5
+    risultato = risultato & numeri(i) & " "
+Next i
+MsgBox risultato
+```
+
+
+
+
+
 _______________________
 
 
