@@ -1,7 +1,11 @@
 # VBA 
 
 
+VBA è un linguaggio di programmazione integrato in Microsoft Excel e in altre applicazioni di Microsoft Office. 
+Consente agli utenti di automatizzare compiti ripetitivi, creare funzioni personalizzate e sviluppare applicazioni più complesse all'interno di Excel.
 
+Con VBA, si possono creare macro, che sono sequenze di istruzioni che eseguono operazioni specifiche. 
+Ad esempio, si può automatizzare la formattazione di fogli di lavoro, l'importazione di dati da altre fonti, o la creazione di report personalizzati. 
 
 # SETUP 
 
