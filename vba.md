@@ -47,12 +47,19 @@ A destra, spunta la voce “Sviluppo” (Developer)
 Clicca su OK
 Ora vedrai la scheda "Sviluppo" nella barra in alto di Excel.
 
+<img width="740" alt="Screenshot 2025-04-16 alle 15 31 12" src="https://github.com/user-attachments/assets/4731b12c-5bfe-49a6-8bee-5874802ac0c8" />
+
+<img width="1146" alt="Screenshot 2025-04-16 alle 15 31 40" src="https://github.com/user-attachments/assets/e2b5ddf8-da1e-43f8-941b-4e9bfee82bb7" />
+
+
 
 
 # TIPI DI DATI :
 
 
 In VBA (Visual Basic for Applications), i tipi di dati sono fondamentali per definire la natura delle variabili e come verranno utilizzate nel codice. 
+
+
 
 
 _______________________
