@@ -25,6 +25,22 @@ https://www.tutorialspoint.com/vba/vba_variables.htm
 
 
 
+Per gli utenti windows :
+
+
+<img width="1152" alt="Screenshot 2025-04-16 alle 15 26 19" src="https://github.com/user-attachments/assets/84997321-e093-4c33-9b5f-feba32018167" />
+
+
+<img width="709" alt="Screenshot 2025-04-16 alle 15 25 46" src="https://github.com/user-attachments/assets/a78111ff-7d3b-4bcf-8618-e63e52ad733a" />
+
+
+<img width="718" alt="Screenshot 2025-04-16 alle 15 25 32" src="https://github.com/user-attachments/assets/3adbffc6-a330-4e54-9f15-1a0efc61b3d2" />
+
+
+
+
+
+
 
 # TIPI DI DATI :
 
