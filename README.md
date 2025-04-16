@@ -39,6 +39,11 @@ https://www.javatpoint.com/vba
 
 https://learn.microsoft.com/it-it/dotnet/visual-basic/language-reference/operators/comparison-operators
 
+
+
+https://support.microsoft.com/it-it/office/uso-di-se-con-le-funzioni-e-o-e-non-in-excel-d895f58c-b36c-419e-b1f2-5c193a236d97
+
+
 ## Funzione logiche 
 
 
