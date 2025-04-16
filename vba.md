@@ -7,6 +7,9 @@ Consente agli utenti di automatizzare compiti ripetitivi, creare funzioni person
 Con VBA, si possono creare macro, che sono sequenze di istruzioni che eseguono operazioni specifiche. 
 Ad esempio, si può automatizzare la formattazione di fogli di lavoro, l'importazione di dati da altre fonti, o la creazione di report personalizzati. 
 
+
+https://www.tutorialspoint.com/vba/vba_variables.htm
+
 # SETUP 
 
 ![Screenshot 2025-04-16 alle 14 55 22](https://github.com/user-attachments/assets/c181a2f9-77f2-4da5-b071-649cc9e74a32)
