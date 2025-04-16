@@ -24,7 +24,11 @@ https://www.tutorialspoint.com/vba/vba_variables.htm
 # TIPI DI DATI :
 
 
-In VBA (Visual Basic for Applications), i tipi di dati sono fondamentali per definire la natura delle variabili e come verranno utilizzate nel codice. Ecco un elenco dei principali tipi di dati disponibili in VBA:
+In VBA (Visual Basic for Applications), i tipi di dati sono fondamentali per definire la natura delle variabili e come verranno utilizzate nel codice. 
+
+
+_______________________
+
 
 1. **Integer**: Utilizzato per memorizzare numeri interi compresi tra -32.768 e 32.767. È utile per contatori e operazioni matematiche semplici.
 
@@ -49,7 +53,7 @@ In VBA (Visual Basic for Applications), i tipi di dati sono fondamentali per def
 11. **Array**: Un tipo di dato che può contenere più valori dello stesso tipo. Gli array possono essere unidimensionali o multidimensionali.
 
 
-
+_______________________
 
 
 
